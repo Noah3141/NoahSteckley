@@ -1,31 +1,39 @@
-import logo from "./Black-Transparent.png";
-import "./App.css";
+import React from "react";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Articles from "./components/pages/Articles";
+import Websites from "./components/pages/Websites";
+import Graphics from "./components/pages/Graphics";
+import GoogleSheets from "./components/pages/GoogleSheets";
+
+import NameNavbar from "./components/inc/NameNavbar";
+import SectionNavbar from "./components/inc/SectionNavbar";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Switch,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Noah Steckley</h1>
-        <p>Website in development. Check back soon.</p>
-        <a
-          className="App-link"
-          href="https://github.com/Noah3141"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        <a
-          className="App-link"
-          href="http://www.russianvocabularylistmaker.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Russian Website
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NameNavbar />
+        <SectionNavbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/articles/*" element={<Articles />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/graphics" element={<Graphics />} />
+          <Route path="/sheets" element={<GoogleSheets />} />
+          <Route path="/websites" element={<Websites />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
