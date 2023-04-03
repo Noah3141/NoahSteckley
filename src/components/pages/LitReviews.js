@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function LitReviews() {
   return (
     <div className="container">
-      <h2 class="mt-4">Literature Reviews</h2>
+      <h2 className="mt-4">Literature Reviews</h2>
       <div className="card my-4 shadow">
         <div className="card-body ">
           <h4>
