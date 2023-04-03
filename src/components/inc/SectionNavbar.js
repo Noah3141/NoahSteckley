@@ -1,12 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/Logo600-loose.png";
 
 function SectionNavbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-secondary">
+    <nav
+      class="navbar fs-5 sticky-top navbar-expand-lg bg-body shadow border-bottom border-light"
+      data-bs-theme="light"
+    >
       <div class="container-fluid">
+        <Link class="navbar-brand ms-4" to="/">
+          <img width="50px" src={logo} />
+        </Link>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <Link to="/" class="nav-link mx-lg-3">
                 Home
@@ -22,19 +30,22 @@ function SectionNavbar() {
               >
                 Articles
               </Link>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu fs-5">
                 <li>
-                  <Link class="dropdown-item" to="/articles/">
+                  <Link class="dropdown-item" to="/articles/literature-reviews">
                     Literature Reviews
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" to="/articles/">
+                  <Link
+                    class="dropdown-item"
+                    to="/articles/psychotherapy-integration"
+                  >
                     Psychotherapy Integration
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" to="/articles/">
+                  <Link class="dropdown-item" to="/articles/my-research">
                     My Research Papers
                   </Link>
                 </li>
@@ -53,6 +64,18 @@ function SectionNavbar() {
             <li class="nav-item">
               <Link to="/sheets" class="nav-link">
                 Google Sheets
+              </Link>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <Link class="nav-link" to="/about">
+                About
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/contact">
+                Contact
               </Link>
             </li>
           </ul>

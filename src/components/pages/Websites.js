@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 function Websites() {
   return (
     <div className="container">
+      <h2 class="mt-4">Websites Page</h2>
       <div className="card mt-4">
         <div className="card-body">
-          <h2>Websites Page</h2>
-
           <Link to="http://www.russianvocabularylistmaker.com" target="_blank">
             Russian Vocabulary List Maker
           </Link>

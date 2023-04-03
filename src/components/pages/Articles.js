@@ -6,11 +6,10 @@ function Articles() {
       <div className="card mt-4">
         <div className="card-body">
           <h2>Articles</h2>
-          <ul>
-            <li>Research Articles</li>
-            <li>Literature Reviews</li>
-            <li>Psychotherapy Integration Essays</li>
-          </ul>
+
+          <h3>Research Articles</h3>
+          <h3>Literature Reviews</h3>
+          <h3>Psychotherapy Integration Essays</h3>
         </div>
       </div>
     </div>

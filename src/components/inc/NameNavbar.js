@@ -4,7 +4,7 @@ import logo from "../images/Logo600-loose.png";
 
 function NameNavbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body shadow" data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg bg-body" data-bs-theme="light">
       <div class="container-fluid">
         <img width="50px" src={logo} />
         <Link class="navbar-brand" to="/">

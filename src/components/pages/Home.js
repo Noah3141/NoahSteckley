@@ -1,13 +1,11 @@
 import React from "react";
+import Carousel from "../inc/Carousel";
 
 function Home() {
   return (
     <div className="container">
-      <div className="card mt-4">
-        <div className="card-body">
-          <h2>Home Page</h2>
-        </div>
-      </div>
+      <h3>Home</h3>
+      <Carousel />
     </div>
   );
 }
