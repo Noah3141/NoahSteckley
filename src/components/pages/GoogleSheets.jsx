@@ -3,7 +3,7 @@ import React from "react";
 function GoogleSheets() {
   return (
     <div className="container">
-      <h2 class="mt-4">Google Sheets</h2>
+      <h2>Google Sheets</h2>
       <div className="card my-4 shadow">
         <div className="card-body">
           <div>

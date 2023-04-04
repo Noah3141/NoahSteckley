@@ -4,7 +4,7 @@ import Carousel from "../inc/Carousel";
 function Home() {
   return (
     <div className="container">
-      <h3>Home</h3>
+      <h2>Home</h2>
       <Carousel />
     </div>
   );
