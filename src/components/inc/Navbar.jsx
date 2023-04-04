@@ -5,7 +5,7 @@ import logo from "../images/Logo600-loose.png";
 function Navbar() {
   return (
     <nav
-      className="navbar fs-5 fixed-top navbar-expand-lg bg-body border-bottom border-light"
+      className="navbar fs-5 fixed-top navbar-expand-lg bg-light border-bottom"
       data-bs-theme="light"
     >
       <div className="container">

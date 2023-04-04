@@ -1,27 +1,55 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-function Crumbtrail({ match }) {
-  console.log(match);
+function Crumbtrail() {
+  const location = useLocation();
+  console.log(location);
+
+  let currentLink = "";
+
+  function titleCase(str) {
+    str = str.toLowerCase().split(" "); // Lowercase the phrase and give me an array of its words
+    for (var i = 0; i < str.length; i++) {
+      // Go word by word in the array
+      if (str[i].length >= 3) {
+        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); // For each word, combine the character at position 0 made uppercase with the word from that letter onward
+      }
+    }
+    return str.join(" "); // Restitch all the words into a single string again
+  }
+
+  const crumbs = location.pathname
+    .split("/")
+    .filter((crumb) => crumb !== "")
+    .map((crumb) => {
+      currentLink += `/${crumb}`;
+      crumb = titleCase(crumb.replace(/-/g, " "));
+      return (
+        <li className="breadcrumb-item" key={crumb}>
+          <Link
+            className=" link-primary link-underline-opacity-0"
+            to={currentLink}
+          >
+            {" "}
+            {crumb}{" "}
+          </Link>
+        </li>
+      );
+    });
+  if (crumbs.length == 1) {
+    return <></>;
+  }
 
   return (
-    <div className="shadow border-top">
-      <nav className="sticky-top" aria-label="breadcrumb">
+    <>
+      <nav
+        className="sticky-top bg-light border-bottom"
+        aria-label="breadcrumb"
+      >
         <div className="container">
-          <ol className="breadcrumb bg-body">
-            <li className="breadcrumb-item">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="breadcrumb-item">
-              <Link to="/articles">Articles</Link>
-            </li>
-            <li className="breadcrumb-item active" aria-current="page">
-              Ketogenic Diet as a Psychiatric Intervention
-            </li>
-          </ol>
+          <ol className="breadcrumb m-0">{crumbs}</ol>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
 

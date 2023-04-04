@@ -1,4 +1,3 @@
-import React from "react";
 import RussPoster from "../images/RussPoster.jpeg";
 import ExpParadigm from "../images/ExpParadigm.png";
 import TreeDiagram from "../images/говоритьTree.jpg";
@@ -7,7 +6,7 @@ import LevelsofConsciousness from "../images/Levels_of_Consciousness.png";
 
 function Graphics() {
   return (
-    <div className="container">
+    <div className="container m-6">
       <div className="row">
         <h2>Graphics </h2>
 
