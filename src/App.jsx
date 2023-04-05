@@ -17,57 +17,59 @@ import MyResearch from "./components/pages/MyResearch";
 
 import Navbar from "./components/inc/Navbar";
 import Crumbtrail from "./components/inc/Crumbtrail";
-import Title from "./components/inc/Title";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Crumbtrail />
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
+    <>
+      <Router>
+        <Navbar />
+        <div style={{ paddingTop: "66px" }}>
+          <Crumbtrail />
 
-          {/* Now Lists of Articles URLs  */}
-          <Route path="/articles" element={<ArticlesList />} />
-          <Route
-            path="/articles/literature-reviews/"
-            element={<LitReviews />}
-          />
-          <Route
-            path="/articles/psychotherapy-integration/"
-            element={<PsychIntegration />}
-          />
-          <Route path="/articles/my-research/" element={<MyResearch />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
 
-          {/* Now the single article specific URLs  */}
-          <Route
-            path="/articles/literature-reviews/:id"
-            element={<Article category="literature-reviews" />}
-          />
-          <Route
-            path="/articles/psychotherapy-integration/:id"
-            element={<Article category="psychotherapy-integration" />}
-          />
-          <Route
-            path="/articles/my-research/:id"
-            element={<Article category="my-research" />}
-          />
+            {/* Now Lists of Articles URLs  */}
+            <Route path="/articles" element={<ArticlesList />} />
+            <Route
+              path="/articles/literature-reviews/"
+              element={<LitReviews />}
+            />
+            <Route
+              path="/articles/psychotherapy-integration/"
+              element={<PsychIntegration />}
+            />
+            <Route path="/articles/my-research/" element={<MyResearch />} />
 
-          {/* Other pages  */}
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
+            {/* Now the single article specific URLs  */}
+            <Route
+              path="/articles/literature-reviews/:id"
+              element={<Article category="literature-reviews" />}
+            />
+            <Route
+              path="/articles/psychotherapy-integration/:id"
+              element={<Article category="psychotherapy-integration" />}
+            />
+            <Route
+              path="/articles/my-research/:id"
+              element={<Article category="my-research" />}
+            />
 
-          <Route path="/graphics" element={<Graphics />} />
-          <Route path="/sheets" element={<GoogleSheets />} />
-          <Route path="/websites" element={<Websites />} />
-          <Route path="/gadgets" element={<Gadgets />} />
-          <Route path="/book-reviews" element={<BookReviews />} />
-        </Routes>
-      </div>
-    </Router>
+            {/* Other pages  */}
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+
+            <Route path="/graphics" element={<Graphics />} />
+            <Route path="/sheets" element={<GoogleSheets />} />
+            <Route path="/websites" element={<Websites />} />
+            <Route path="/gadgets" element={<Gadgets />} />
+            <Route path="/book-reviews" element={<BookReviews />} />
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 }
 

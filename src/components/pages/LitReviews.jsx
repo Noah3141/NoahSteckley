@@ -15,12 +15,10 @@ function LitReviews() {
             </Link>
           </h4>
           <p>
-            A well-formulated ketogenic diet not only does not cause any
-            negative health effects, but is highly protective from most if not
-            all chronic conditions. In fact, it could be said that many modern
-            diets (such as the Standard American Diet) are{" "}
-            <strong>causative</strong> of such conditions, and the ketogenic
-            diet simply removes the pathogenic factors.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            maxime, ratione atque ullam aliquam voluptas velit perferendis ab
+            nihil ut quis sunt tenetur distinctio? Adipisci recusandae omnis
+            officiis libero? Harum?
           </p>
         </div>
       </div>
@@ -33,10 +31,10 @@ function LitReviews() {
             </Link>
           </h4>
           <p>
-            It has become commonplace to believe that high intakes of salt are
-            not only harmful, but essentially dangerous. This is in contrast to
-            the clear conclusion of an integrative approach to the current state
-            of relevant literature.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            corporis veritatis aperiam, blanditiis neque vero adipisci beatae
+            iste quis ad magnam temporibus sit quasi eos dolorum corrupti
+            impedit, esse saepe.
           </p>
         </div>
       </div>
@@ -45,10 +43,15 @@ function LitReviews() {
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/ADHD-validity">
-              ADHD Nosological Validity
+              Nosological Validity of ADHD
             </Link>
           </h4>
-          <p>Explanation</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex,
+            recusandae accusamus delectus laboriosam enim dolores eveniet
+            obcaecati quia blanditiis facere earum vel tempore maiores illo
+            veritatis vero? Architecto, magnam tempora?
+          </p>
         </div>
       </div>
       <div className="card my-4 shadow">
@@ -59,10 +62,10 @@ function LitReviews() {
             </Link>
           </h4>
           <p>
-            An appalling amount of research now shows strong evidence both
-            theoretical and empirical that many disorders we consider to be
-            caused by genetics are entirely resolvable with dietary
-            interventions.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            dolore itaque neque architecto quaerat aliquid natus voluptatem
+            perspiciatis quae nulla rem ullam, debitis iste labore consequatur?
+            Esse quibusdam rerum magni.
           </p>
         </div>
       </div>
@@ -75,9 +78,10 @@ function LitReviews() {
             </Link>
           </h4>
           <p>
-            Research now shows evidence both theoretical and empirical that many
-            disorders we consider to be caused by genetics are entirely
-            resolvable with dietary interventions.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+            harum possimus unde ab id quidem non consequuntur laboriosam?
+            Tenetur iste voluptate explicabo sapiente quibusdam quas officia
+            soluta quasi in dolorem.
           </p>
         </div>
       </div>
@@ -86,7 +90,12 @@ function LitReviews() {
           <h4>
             <Link to="/articles/literature-reviews/sunburn">Sunburn</Link>
           </h4>
-          <p></p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            nobis ex illo ducimus eveniet maxime quidem accusamus, repellendus,
+            quaerat, sint quam odit neque autem ipsam unde fuga suscipit culpa
+            ea?
+          </p>
         </div>
       </div>
     </div>

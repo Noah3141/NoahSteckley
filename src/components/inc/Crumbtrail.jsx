@@ -26,7 +26,7 @@ function Crumbtrail() {
       return (
         <li className="breadcrumb-item" key={crumb}>
           <Link
-            className=" link-primary link-underline-opacity-0"
+            className=" link-primary  link-underline-opacity-0"
             to={currentLink}
           >
             {" "}
@@ -41,12 +41,9 @@ function Crumbtrail() {
 
   return (
     <>
-      <nav
-        className="sticky-top bg-light border-bottom"
-        aria-label="breadcrumb"
-      >
+      <nav className="sticky-top bg-info shadow" aria-label="breadcrumb">
         <div className="container">
-          <ol className="breadcrumb m-0">{crumbs}</ol>
+          <ol className="breadcrumb m-0 py-1">{crumbs}</ol>
         </div>
       </nav>
     </>

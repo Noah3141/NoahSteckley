@@ -9,10 +9,16 @@ function LitReviews() {
         <div className="card-body ">
           <h4>
             <Link to="/articles/psychotherapy-integration/gospel-as-theory">
-              Psychodynamic Effects of the Sermon on the Mount as an Ethical
-              Schema
+              Psychodynamic Effects of <i>The Sermon on the Mount</i> as an
+              Ethical Schema
             </Link>
           </h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            qui reiciendis, temporibus repudiandae maxime quae nisi ex
+            necessitatibus possimus, autem nulla laborum ipsam voluptatum quas
+            sit dolores veniam aperiam provident.
+          </p>
         </div>
       </div>
       <div className="card mt-4 shadow">
@@ -23,6 +29,12 @@ function LitReviews() {
               from a Behaviorist point of view)
             </Link>
           </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+            reiciendis molestiae recusandae cupiditate, corporis nobis saepe
+            delectus, fugiat quidem obcaecati at porro ea adipisci explicabo
+            dolorum deserunt eius pariatur iure!
+          </p>
         </div>
       </div>
       <div className="card mt-4 shadow">
@@ -33,6 +45,12 @@ function LitReviews() {
               Health"
             </Link>
           </h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+            tenetur assumenda, tempora voluptas repellat aut. Hic possimus
+            assumenda harum necessitatibus. Doloribus maxime iste inventore
+            facere asperiores, modi officia! Vero, incidunt.
+          </p>
         </div>
       </div>
     </div>

@@ -1,0 +1,39 @@
+$primary: #ec6d19;
+$danger: #f44336;
+$info: #1a2b35;
+$dark: #1a181f;
+$light: #e5eff0;
+$secondary: #d5d1db;
+$success: #80a544;
+$warning: #b1079a;
+//$body: ;
+$body-bg: $light;
+$body-color: $info;
+
+$link-decoration: none;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+/*
+
+GEYSER
+Light shades
+Use this color as the background for your dark-on-light designs, or the text color of an inverted design.
+
+RED VIOLET
+Light accent
+Accent colors can be used to bring attention to design elements by contrasting with the rest of the palette.
+
+SEA BUCKTHORN
+Main brand color
+This color should be eye-catching but not harsh. It can be liberally applied to your layout as its main identity.
+
+APPLE BLOSSOM
+Dark accent
+Another accent color to consider. Not all colors have to be used - sometimes a simple color scheme works best.
+
+BALTIC SEA
+Dark shades
+Use as the text color for dark-on-light designs, or as the background for inverted designs.
+
+*/

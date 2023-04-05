@@ -6,7 +6,7 @@ function BookReviews() {
   return (
     <div className="container">
       <Title title="Book Reviews" />
-      <h4>Clinical Psychology</h4>
+      <h4 className="mt-4">Clinical Psychology</h4>
       <BookReviewCard
         title="The discovery of the unconscious: The history and evolution of dynamic psychiatry (Vol. 1, pp. 280-281)"
         alt_title="The Discovery of the Unconscious: The History and Evolution of Dynamic Psychiatry"
@@ -123,13 +123,13 @@ function BookReviews() {
       />
       <BookReviewCard
         title="12 rules for life: An antidote to chaos"
-        title="12 Rules for Life: An Antidote to Chaos"
+        alt_title="12 Rules for Life: An Antidote to Chaos"
         author="Peterson, J. B."
         year="2018"
         review=""
       />
 
-      <h4>Classics</h4>
+      <h4 className="mt-4">Classics</h4>
       <BookReviewCard
         title="Faust I & II (Vol. 2)."
         alt_title="Faust"
@@ -162,7 +162,7 @@ function BookReviews() {
         review=""
       />
 
-      <h4>History</h4>
+      <h4 className="mt-4">History</h4>
       <BookReviewCard
         title="Ordinary men: Reserve police battalion 101 and the final solution in Poland"
         alt_title="Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland"

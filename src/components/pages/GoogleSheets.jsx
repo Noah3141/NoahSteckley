@@ -8,7 +8,7 @@ function GoogleSheets() {
         <Title title="Google Sheets" />
       </div>
       <div className="p-5">
-        <div className="card my-4 shadow">
+        <div className="card my-4 bg-info shadow">
           <div className="card-body">
             <div>
               <iframe
@@ -21,7 +21,7 @@ function GoogleSheets() {
           </div>
         </div>
 
-        <div className="card my-4 shadow">
+        <div className="card my-4 bg-info shadow">
           <div className="card-body">
             <div>
               <iframe
@@ -34,7 +34,7 @@ function GoogleSheets() {
           </div>
         </div>
 
-        <div className="card my-4 shadow">
+        <div className="card my-4 bg-info shadow">
           <div className="card-body">
             <div>
               <iframe
