@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Title from "../inc/Title";
 
 function LitReviews() {
   return (
     <div className="container">
-      <h2>Essays on Psychotherapy Integration</h2>
+      <Title title="Essays on Psychotherapy Integration" />
       <div className="card mt-4 shadow">
         <div className="card-body ">
           <h4>

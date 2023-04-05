@@ -16,6 +16,9 @@ function Navbar() {
                 Home
               </Link>
             </li>
+
+            {/* The dropdown button for "Articles" */}
+
             <li class="nav-item dropdown mx-lg-3">
               <Link
                 to="/articles"
@@ -51,6 +54,9 @@ function Navbar() {
                 </li>
               </ul>
             </li>
+
+            {/* The basic Links along left */}
+
             <li className="nav-item mx-lg-3">
               <Link to="/websites" class="nav-link">
                 Websites
@@ -67,11 +73,18 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/book-reviews" className="nav-link">
+                Book Reviews
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/gadgets" className="nav-link">
                 Gadgets
               </Link>
             </li>
           </ul>
+
+          {/* The right hand side */}
 
           <ul className="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
             <li className="nav-item">

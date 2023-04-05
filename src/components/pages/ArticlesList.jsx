@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Title from "../inc/Title";
 
 function ArticlesList() {
   return (
     <div className="container">
-      <h2>Articles</h2>
+      <Title title="Articles" />
 
       <div className="card mt-4">
         <div className="card-body">

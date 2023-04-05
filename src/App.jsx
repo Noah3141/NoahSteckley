@@ -2,25 +2,26 @@ import React from "react";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import ArticlesList from "./components/pages/ArticlesList";
+
 import Websites from "./components/pages/Websites";
 import Graphics from "./components/pages/Graphics";
 import GoogleSheets from "./components/pages/GoogleSheets";
-import Article from "./components/pages/Article";
 import Gadgets from "./components/pages/Gadgets";
+import BookReviews from "./components/pages/BookReviews";
 
+import ArticlesList from "./components/pages/ArticlesList";
+import Article from "./components/pages/Article";
 import LitReviews from "./components/pages/LitReviews";
 import PsychIntegration from "./components/pages/PsychIntegration";
 import MyResearch from "./components/pages/MyResearch";
 
 import Navbar from "./components/inc/Navbar";
 import Crumbtrail from "./components/inc/Crumbtrail";
+import Title from "./components/inc/Title";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  //? Get me a list of the articles in the folders, loop through and create a Router element for each
-
   return (
     <Router>
       <Navbar />
@@ -63,6 +64,7 @@ function App() {
           <Route path="/sheets" element={<GoogleSheets />} />
           <Route path="/websites" element={<Websites />} />
           <Route path="/gadgets" element={<Gadgets />} />
+          <Route path="/book-reviews" element={<BookReviews />} />
         </Routes>
       </div>
     </Router>

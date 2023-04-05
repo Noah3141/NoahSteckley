@@ -10,7 +10,7 @@ function Crumbtrail() {
     str = str.toLowerCase().split(" "); // Lowercase the phrase and give me an array of its words
     for (var i = 0; i < str.length; i++) {
       // Go word by word in the array
-      if (str[i].length >= 3) {
+      if (i === 0 || str[i].length >= 3) {
         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); // For each word, combine the character at position 0 made uppercase with the word from that letter onward
       }
     }

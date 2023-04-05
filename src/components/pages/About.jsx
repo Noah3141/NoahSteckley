@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../inc/Title";
 
 function About() {
   return (
     <div className="container">
-      <h2>Noah Steckley</h2>
+      <Title title="Noah Steckley" />
       <h4>Past</h4>
       <p>
         I graduated from University of Montana with a Bachelor's in Psychology,

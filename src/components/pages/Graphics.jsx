@@ -3,12 +3,14 @@ import ExpParadigm from "../images/ExpParadigm.png";
 import TreeDiagram from "../images/говоритьTree.jpg";
 import ArrayofKnowledge from "../images/Array_of_Knowledge.jpg";
 import LevelsofConsciousness from "../images/Levels_of_Consciousness.png";
+import Title from "../inc/Title";
+import ImageTabber from "../inc/ImageTabber";
 
 function Graphics() {
   return (
-    <div className="container m-6">
+    <div className="container">
       <div className="row">
-        <h2>Graphics </h2>
+        <Title title="Graphics" />
 
         <div className="card shadow my-4 p-4 mx-auto  col-12 col-lg-5">
           <img className="card-img-bottom" width="600px" src={RussPoster}></img>

@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../inc/Title";
 
 function Contact() {
   return (
     <div className="container">
-      <h2>Contact Me</h2>
+      <Title title="Contact Me" />
       <h4>
         <ul>
           <li className="mt-3">

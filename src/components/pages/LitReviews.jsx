@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Title from "../inc/Title";
 
 function LitReviews() {
   return (
     <div className="container">
-      <h2>Literature Reviews</h2>
+      <Title title="Literature Reviews" />
 
       <div className="card my-4 shadow">
         <div className="card-body">

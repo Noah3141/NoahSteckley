@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "../inc/Carousel";
+import Title from "../inc/Title";
 
 function Home() {
   return (
     <div className="container">
-      <h2>Home</h2>
-      <Carousel />
+      <Title title="Home" />
     </div>
   );
 }
