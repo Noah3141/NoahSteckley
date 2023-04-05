@@ -25,7 +25,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div style={{ paddingTop: "66px" }}>
+        <div style={{ paddingTop: "56px" }}>
           <Crumbtrail />
 
           <Routes>

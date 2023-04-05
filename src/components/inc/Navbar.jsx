@@ -97,20 +97,19 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-
           {/* The right hand side */}
-
           <ul className="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
-            <li className="nav-item  ">
+            <li className="nav-item">
               <Link className="nav-link text-light" to="/about">
                 About
               </Link>
             </li>
-            <li className="nav-item  ">
+            <li className="nav-item">
               <Link className="nav-link text-light  " to="/contact">
                 Contact
               </Link>
             </li>
+            <li className="nav-item">{"             "}</li>
 
             <li className="nav-item radio text-light">
               <div
@@ -149,8 +148,8 @@ function Navbar() {
               </div>
             </li>
 
-            <li>
-              <Link className="navbar-brand m-0 ms-1" to="/">
+            <li className="navbar-item">
+              <Link className="navbar-brand m-0" to="/">
                 <img className="img " width="50px" src={logo} alt="logo" />
               </Link>
             </li>
