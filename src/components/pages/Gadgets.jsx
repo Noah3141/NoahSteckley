@@ -6,7 +6,7 @@ function Gadgets() {
   return (
     <div className="container-fluid bg-info" style={{ height: "100%" }}>
       <div className="container bg-info">
-        <Title title="Gadgets" />
+        <Title title="Gadgets" className="text-light" />
 
         <div className="card shadow mt-4">
           <div className="card-body">

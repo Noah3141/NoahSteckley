@@ -10,7 +10,7 @@ function Navbar() {
     >
       <div className="container" style={{ height: "60px" }}>
         <button
-          class="navbar-toggler border-info border-2 bg-dark"
+          className="navbar-toggler border-info border-2 bg-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -18,7 +18,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon "></span>
+          <span className="navbar-toggler-icon "></span>
         </button>
 
         <Link className="navbar-brand m-0" to="/">
@@ -38,7 +38,7 @@ function Navbar() {
 
             {/* The dropdown button for "Articles" */}
 
-            <li class="nav-item dropdown ms-lg-2 text-light mx-lg-1">
+            <li className="nav-item dropdown ms-lg-2 text-light mx-lg-1">
               <Link
                 to="/articles"
                 className="nav-link dropdown-toggle text-light"
@@ -80,7 +80,7 @@ function Navbar() {
             {/* The basic Links along left */}
 
             <li className="nav-item dropdown mx-lg-1  ">
-              <Link to="/websites" class="nav-link text-light">
+              <Link to="/websites" className="nav-link text-light">
                 Websites
               </Link>
             </li>
@@ -129,12 +129,12 @@ function Navbar() {
                   className="btn-check"
                   name="btnradio"
                   id="btnradio1"
-                  autocomplete="off"
+                  autoComplete="off"
                   checked
                 />
                 <label
                   className="btn btn-outline-info  text-light"
-                  for="btnradio1"
+                  htmlFor="btnradio1"
                 >
                   EN
                 </label>
@@ -144,11 +144,11 @@ function Navbar() {
                   className="btn-check btn-sm text-light"
                   name="btnradio"
                   id="btnradio2"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
                 <label
                   className="btn btn-outline-info text-light"
-                  for="btnradio2"
+                  htmlFor="btnradio2"
                 >
                   RU
                 </label>

@@ -9,10 +9,7 @@ function Websites() {
       <div className="card mt-4 shadow">
         <div className="card-body">
           <h4>
-            <Link
-              to="http://www.russianvocabularylistmaker.com"
-              target="_blank"
-            >
+            <Link to="http://RussianVocabularyListMaker.com/" target="_blank">
               Russian Vocabulary List Maker
             </Link>
           </h4>
