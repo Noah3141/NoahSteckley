@@ -1,4 +1,4 @@
-$primary: #ec6d19;
+$primary: #ec7f19;
 $danger: #f44336;
 $info: #1a2b35;
 $dark: #1a181f;
@@ -19,6 +19,7 @@ $body-color: $info;
 //$line-height-base
 
 $link-decoration: none;
+$breadcrumb-divider-color: $primary;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 

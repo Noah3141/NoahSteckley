@@ -24,13 +24,9 @@ function Crumbtrail() {
       currentLink += `/${crumb}`;
       crumb = titleCase(crumb.replace(/-/g, " "));
       return (
-        <li className="breadcrumb-item" key={crumb}>
-          <Link
-            className=" link-primary  link-underline-opacity-0"
-            to={currentLink}
-          >
-            {" "}
-            {crumb}{" "}
+        <li className="breadcrumb-item text-primary" key={crumb}>
+          <Link className="text-primary link-primary" to={currentLink}>
+            {crumb}
           </Link>
         </li>
       );
@@ -41,7 +37,7 @@ function Crumbtrail() {
 
   return (
     <>
-      <nav className="sticky-top bg-info shadow" aria-label="breadcrumb">
+      <nav className="bg-info shadow breadcrumb" aria-label="breadcrumb">
         <div className="container">
           <ol className="breadcrumb m-0 py-1">{crumbs}</ol>
         </div>

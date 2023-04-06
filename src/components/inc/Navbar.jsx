@@ -8,9 +8,9 @@ function Navbar() {
       className="navbar fs-5 fixed-top navbar-expand-lg bg-dark shadow"
       data-bs-theme="light"
     >
-      <div className="container" style={{ height: "50px" }}>
+      <div className="container" style={{ height: "60px" }}>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-info border-2 bg-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -18,7 +18,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
 
         <Link className="navbar-brand m-0" to="/">
@@ -26,11 +26,11 @@ function Navbar() {
         </Link>
 
         <div
-          className="collapse navbar-collapse bg-dark navbar-nav"
+          className="collapse navbar-collapse bg-dark rounded-3 navbar-nav"
           id="navbarNav"
         >
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+          <ul className="navbar-nav me-auto pt-2 p-4 mb-2 p-lg-0 mb-lg-0">
+            <li className="nav-item dropdown">
               <Link to="/" className="nav-link mx-lg-3 text-light">
                 Home
               </Link>
@@ -38,7 +38,7 @@ function Navbar() {
 
             {/* The dropdown button for "Articles" */}
 
-            <li class="nav-item dropdown  text-light mx-lg-3">
+            <li class="nav-item dropdown ms-lg-2 text-light mx-lg-1">
               <Link
                 to="/articles"
                 className="nav-link dropdown-toggle text-light"
@@ -48,10 +48,10 @@ function Navbar() {
               >
                 Articles
               </Link>
-              <ul className="dropdown-menu bg-dark border border-black fs-5">
+              <ul className="dropdown-menu bg-info border border-black fs-5">
                 <li>
                   <Link
-                    className="dropdown-item highlight-dark text-light"
+                    className="dropdown-item text-primary"
                     to="/articles/literature-reviews"
                   >
                     Literature Reviews
@@ -59,7 +59,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className="dropdown-item highlight-dark text-light"
+                    className="dropdown-item text-primary"
                     to="/articles/my-research"
                   >
                     My Research Papers
@@ -68,7 +68,7 @@ function Navbar() {
 
                 <li>
                   <Link
-                    className="dropdown-item highlight-dark text-light"
+                    className="dropdown-item text-primary"
                     to="/articles/psychotherapy-integration"
                   >
                     Psychotherapy Integration
@@ -79,47 +79,46 @@ function Navbar() {
 
             {/* The basic Links along left */}
 
-            <li className="nav-item fluid mx-lg-3  ">
+            <li className="nav-item dropdown mx-lg-1  ">
               <Link to="/websites" class="nav-link text-light">
                 Websites
               </Link>
             </li>
-            <li className="nav-item mx-lg-3  ">
+            <li className="nav-item dropdown mx-lg-1  ">
               <Link to="/graphics" className="nav-link text-light">
                 Graphics
               </Link>
             </li>
-            <li className="nav-item me-2  ">
+            <li className="nav-item dropdown mx-lg-1  ">
               <Link to="/sheets" className="nav-link text-light">
                 Google Sheets
               </Link>
             </li>
-            <li className="nav-item  ">
+            <li className="nav-item dropdown mx-lg-1">
               <Link to="/book-reviews" className="nav-link text-light">
                 Book Reviews
               </Link>
             </li>
-            <li className="nav-item ">
+            <li className="nav-item dropdown mx-lg-1">
               <Link to="/gadgets" className="nav-link  text-light">
                 Gadgets
               </Link>
             </li>
           </ul>
           {/* The right hand side */}
-          <ul className="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
-            <li className="nav-item">
+          <ul className="navbar-nav ms-auto pe-4 pe-lg-0 pb-4 pb-lg-0">
+            <li className="nav-item dropdown">
               <Link className="nav-link text-light" to="/about">
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item dropdown">
               <Link className="nav-link text-light  " to="/contact">
                 Contact
               </Link>
             </li>
-            <li className="nav-item">{"             "}</li>
 
-            <li className="nav-item radio text-light">
+            <li className="nav-item radio text-light ms-lg-3">
               <div
                 className="btn-group btn-group-sm pt-2"
                 role="group"

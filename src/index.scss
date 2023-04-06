@@ -25,10 +25,11 @@ code {
 .nav-link::before {
   transition: all 0.2s;
   content: "";
-  height: 7px;
+  height: 3px;
+  border-radius: 2px;
   width: 100%;
   position: absolute;
-  background-color: $info;
+  background-color: $success;
   left: 0;
   bottom: 0;
   opacity: 0;
@@ -36,8 +37,4 @@ code {
 
 .nav-link:hover::before {
   opacity: 1;
-}
-
-.hightlight-dark:hover {
-  background-color: #231f2b;
 }

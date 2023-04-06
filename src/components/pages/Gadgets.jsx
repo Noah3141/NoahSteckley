@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../inc/Title";
+import { Link } from "react-router-dom";
 
 function Gadgets() {
   return (
@@ -9,7 +10,11 @@ function Gadgets() {
 
         <div className="card shadow mt-4">
           <div className="card-body">
-            Example Russian Sentence from Vocab Word
+            <h4>
+              <Link to="/gadgets/russian-example-vocab-sentence">
+                Example Russian Sentence from Vocab Word
+              </Link>
+            </h4>
           </div>
         </div>
       </div>

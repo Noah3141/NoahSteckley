@@ -6,8 +6,10 @@ import Contact from "./components/pages/Contact";
 import Websites from "./components/pages/Websites";
 import Graphics from "./components/pages/Graphics";
 import GoogleSheets from "./components/pages/GoogleSheets";
-import Gadgets from "./components/pages/Gadgets";
 import BookReviews from "./components/pages/BookReviews";
+
+import Gadgets from "./components/pages/Gadgets";
+import RussSentencer from "./components/pages/gadgets/RussSentencer";
 
 import ArticlesList from "./components/pages/ArticlesList";
 import Article from "./components/pages/Article";
@@ -25,7 +27,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div style={{ paddingTop: "66px", height: "100%" }}>
+        <div style={{ paddingTop: "75px", height: "100%" }}>
           <Crumbtrail />
 
           <Routes>
@@ -57,6 +59,13 @@ function App() {
               element={<Article category="my-research" />}
             />
 
+            {/* Gadgets  */}
+            <Route path="/gadgets" element={<Gadgets />} />
+            <Route
+              path="/gadgets/russian-example-vocab-sentence"
+              element={<RussSentencer />}
+            />
+
             {/* Other pages  */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
@@ -64,7 +73,7 @@ function App() {
             <Route path="/graphics" element={<Graphics />} />
             <Route path="/sheets" element={<GoogleSheets />} />
             <Route path="/websites" element={<Websites />} />
-            <Route path="/gadgets" element={<Gadgets />} />
+
             <Route path="/book-reviews" element={<BookReviews />} />
           </Routes>
         </div>
