@@ -20,7 +20,15 @@ function Navbar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+
+        <Link className="navbar-brand m-0" to="/">
+          <img className="img " width="50px" src={logo} alt="logo" />
+        </Link>
+
+        <div
+          className="collapse navbar-collapse bg-dark navbar-nav"
+          id="navbarNav"
+        >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link to="/" className="nav-link mx-lg-3 text-light">
@@ -40,10 +48,10 @@ function Navbar() {
               >
                 Articles
               </Link>
-              <ul className="dropdown-menu bg-info fs-5">
+              <ul className="dropdown-menu bg-dark border border-black fs-5">
                 <li>
                   <Link
-                    className="dropdown-item  text-light"
+                    className="dropdown-item highlight-dark text-light"
                     to="/articles/literature-reviews"
                   >
                     Literature Reviews
@@ -51,7 +59,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className="dropdown-item  text-light"
+                    className="dropdown-item highlight-dark text-light"
                     to="/articles/my-research"
                   >
                     My Research Papers
@@ -60,7 +68,7 @@ function Navbar() {
 
                 <li>
                   <Link
-                    className="dropdown-item  text-light"
+                    className="dropdown-item highlight-dark text-light"
                     to="/articles/psychotherapy-integration"
                   >
                     Psychotherapy Integration
@@ -71,7 +79,7 @@ function Navbar() {
 
             {/* The basic Links along left */}
 
-            <li className="nav-item mx-lg-3  ">
+            <li className="nav-item fluid mx-lg-3  ">
               <Link to="/websites" class="nav-link text-light">
                 Websites
               </Link>
@@ -146,12 +154,6 @@ function Navbar() {
                   RU
                 </label>
               </div>
-            </li>
-
-            <li className="navbar-item">
-              <Link className="navbar-brand m-0" to="/">
-                <img className="img " width="50px" src={logo} alt="logo" />
-              </Link>
             </li>
           </ul>
         </div>

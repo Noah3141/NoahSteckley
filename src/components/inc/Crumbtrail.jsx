@@ -35,7 +35,7 @@ function Crumbtrail() {
         </li>
       );
     });
-  if (crumbs.length === 1) {
+  if (crumbs.length <= 1) {
     return <></>;
   }
 
