@@ -12,8 +12,7 @@ function RussSentencer() {
     const inputField = event.target.querySelector("input[type='text']");
     const inputValue = inputField.value;
 
-    // Ping ChatGPT API
-
+    const secret = process.env.REACT_APP_CHATGPT_API_KEY;
     const { Configuration, OpenAIApi } = require("openai");
     const config = new Configuration({ apiKey: secret });
     const openai = new OpenAIApi(config);
@@ -52,7 +51,7 @@ function RussSentencer() {
 
       {/* Alert pop up about Russian Lister */}
       <div
-        class="alert alert-warning alert-dismissible fade show mt-4"
+        className="alert alert-warning alert-dismissible fade show mt-4"
         role="alert"
       >
         <svg
@@ -60,7 +59,7 @@ function RussSentencer() {
           width="16"
           height="16"
           fill="currentColor"
-          class="bi bi-info-circle me-2"
+          className="bi bi-info-circle me-2"
           viewBox="0 0 16 16"
         >
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -78,7 +77,7 @@ function RussSentencer() {
         generate vocabulary lists from study material!
         <button
           type="button"
-          class="btn-close"
+          className="btn-close"
           data-bs-dismiss="alert"
           aria-label="Close"
         ></button>
