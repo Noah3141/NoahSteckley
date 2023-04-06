@@ -14,7 +14,6 @@ function RussSentencer() {
 
     // Ping ChatGPT API
 
-    const secret = "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"; // Move to .env file
     const { Configuration, OpenAIApi } = require("openai");
     const config = new Configuration({ apiKey: secret });
     const openai = new OpenAIApi(config);
