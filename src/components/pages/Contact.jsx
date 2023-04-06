@@ -8,7 +8,11 @@ function Contact() {
       <h4>
         <ul>
           <li className="mt-3">
-            <a href="https://github.com/Noah3141" target="_blank">
+            <a
+              href="https://github.com/Noah3141"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </li>
@@ -16,6 +20,7 @@ function Contact() {
             <a
               href="https://www.linkedin.com/in/noah-steckley/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>

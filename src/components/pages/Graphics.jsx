@@ -4,7 +4,6 @@ import TreeDiagram from "../images/говоритьTree.jpg";
 import ArrayofKnowledge from "../images/Array_of_Knowledge.jpg";
 import LevelsofConsciousness from "../images/Levels_of_Consciousness.png";
 import Title from "../inc/Title";
-import ImageTabber from "../inc/ImageTabber";
 
 function Graphics() {
   return (
@@ -16,6 +15,7 @@ function Graphics() {
             <img
               className="card-img-bottom"
               width="600px"
+              alt="Russian Poster"
               src={RussPoster}
             ></img>
             <div className="card-body">
@@ -25,7 +25,12 @@ function Graphics() {
             </div>
           </div>
           <div className="card shadow my-4 p-4 mx-3 bg-dark col-12 col-lg-5">
-            <img className="card-img-top" width="800px" src={TreeDiagram}></img>
+            <img
+              className="card-img-top"
+              alt="Verb Tree Diagram"
+              width="800px"
+              src={TreeDiagram}
+            ></img>
 
             <div className="card-body text-light">
               An infographic for teaching a novel Russian verb model, "verbs as
@@ -61,6 +66,7 @@ function Graphics() {
             <img
               className="card-img-top"
               width="100%"
+              alt="Levels of Consciousness"
               src={LevelsofConsciousness}
             ></img>
             <div className="card-body text-light">

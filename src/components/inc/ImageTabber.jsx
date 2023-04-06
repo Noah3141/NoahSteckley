@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ImageTabber() {
   return (
@@ -6,17 +7,14 @@ function ImageTabber() {
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="#">
+            <Link class="nav-link active" aria-current="true" to="/">
               One
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <Link class="nav-link" href="/">
               Two
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -25,9 +23,9 @@ function ImageTabber() {
         <p class="card-text">
           With supporting text below as a natural lead-in to additional content.
         </p>
-        <a href="#" class="btn btn-primary">
+        <Link href="/" class="btn btn-primary">
           Go somewhere
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "../inc/Carousel";
 import Title from "../inc/Title";
 
 function Home() {
