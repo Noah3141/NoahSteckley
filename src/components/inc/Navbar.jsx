@@ -8,7 +8,7 @@ function Navbar() {
       className="navbar fs-5 fixed-top navbar-expand-lg bg-dark shadow"
       data-bs-theme="light"
     >
-      <div className="container">
+      <div className="container" style={{ height: "50px" }}>
         <button
           class="navbar-toggler"
           type="button"
