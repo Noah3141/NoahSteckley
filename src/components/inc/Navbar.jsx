@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/Logo600-loose.png";
+import EngRuss from "./EngRuss";
 
 function Navbar() {
   return (
@@ -52,17 +53,17 @@ function Navbar() {
                 <li>
                   <Link
                     className="dropdown-item text-primary"
-                    to="/articles/literature-reviews"
+                    to="/articles/my-research"
                   >
-                    Literature Reviews
+                    My Research Papers
                   </Link>
                 </li>
                 <li>
                   <Link
                     className="dropdown-item text-primary"
-                    to="/articles/my-research"
+                    to="/articles/literature-reviews"
                   >
-                    My Research Papers
+                    Literature Reviews
                   </Link>
                 </li>
 
@@ -72,6 +73,30 @@ function Navbar() {
                     to="/articles/psychotherapy-integration"
                   >
                     Psychotherapy Integration
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item text-primary"
+                    to="/articles/programming"
+                  >
+                    Programming
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item text-primary"
+                    to="/articles/russian"
+                  >
+                    Russian Language
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item text-primary"
+                    to="/articles/other-topics"
+                  >
+                    Other Topics
                   </Link>
                 </li>
               </ul>
@@ -130,7 +155,8 @@ function Navbar() {
                   name="btnradio"
                   id="btnradio1"
                   autoComplete="off"
-                  checked
+                  onChange={EngRuss}
+                  checked={true}
                 />
                 <label
                   className="btn btn-outline-info  text-light"

@@ -1,22 +1,119 @@
 import React from "react";
 import Title from "../inc/Title";
+import Background from "../inc/Background";
+import { Link } from "react-router-dom";
+import Dataflow from "../images/Data_Flow.png";
 
 function Home() {
   return (
-    <div className="container">
-      <Title title="Home" />
-      <center>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=America%2FNew_York&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=MONTH&showNav=0&title=Available%20Hours"
-          style={{ border: "solid 1px #777" }}
-          width="1200"
-          height="600"
-          title="Available Hours"
-          frameborder="0"
-          scrolling="no"
-        ></iframe>
-      </center>
-    </div>
+    <>
+      <Background className="bg-info" />
+      <div className="container pb-4">
+        <Title title="Home" className="text-light" />
+        <div className="row my-4">
+          {/* Left hand column*/}
+          <div className=" col-lg-8">
+            <div className="card bg-dark shadow mb-3">
+              <h5 className="card-header bg-dark">
+                <Link>Russian Vocabulary List Maker</Link>
+              </h5>
+              <div className="card-body bg-dark">
+                <img
+                  style={{ position: "relative", width: "100%" }}
+                  className=""
+                  src={Dataflow}
+                  alt="Diagram of Russian Website"
+                />
+              </div>
+              <div className="card-footer">
+                <p className="card-text text-light">
+                  A tool that lets you generate vocabulary lists from input
+                  text. The site also contains full lists of over 3000 verb
+                  pairs, and 300 verb trees, an alternative model of Russian
+                  verbs, that makes comprehending, acquiring, and producing
+                  Russian verbs far easier.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right hand column */}
+          <div className="col-lg-4">
+            {/* The Russian Article Card  */}
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body ">
+                <h5 className="card-title text-primary">
+                  <Link to="/articles/russian/russian-pronunciation-IPA">
+                    ['spʲik 'raʂn vɨt'aʊt 'ɛksɛnt]
+                  </Link>
+                </h5>
+                <h6 className="card-subtitle mb-2 text-danger">
+                  Speak Russian without an Accent
+                </h6>
+                <p className="card-text text-success">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                  dicta vel incidunt numquam. Eius maiores odit eveniet
+                  consequuntur earum quo accusantium incidunt blanditiis tempore
+                  id. Debitis, hic quos! Iusto, voluptatum! Lorem ipsum dolor
+                  sit amet consectetur adipisicing elit. Ex architecto aut,
+                  repudiandae.
+                </p>
+                <Link
+                  to="/articles/russian/russian-pronunciation-IPA"
+                  className="card-link"
+                >
+                  Read more...
+                </Link>
+              </div>
+            </div>
+
+            <div class="card shadow bg-dark mb-3">
+              <div class="card-header fs-4 text-danger">Maps of Meaning</div>
+              <div class="card-body bg-dark  rounded-bottom-1">
+                <blockquote class="blockquote mb-0 text-light ">
+                  <p className="fs-12">
+                    The capacity to create novel behaviors and categories of
+                    interpretation in response to the emergence of the unknown
+                    might be regarded as the primary hallmark of human
+                    consciousness—indeed, of human being.
+                  </p>
+                  <footer class="blockquote-footer">
+                    <cite title="Source Title">Jordan Peterson </cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body">
+                <h5 className="card-title text-primary">
+                  <Link to="/gadgets/russian-example-vocab-sentence">
+                    Generate Russian Example Sentence
+                  </Link>
+                </h5>
+                <h6 className="card-subtitle mb-2 text-danger">
+                  ChatGPT Powered Language Studying
+                </h6>
+                <p className="card-text text-success">
+                  Want to listen to a Russian podcast, without struggling to
+                  follow the conversation? Or read a book without stopping to
+                  look up words so much? Create a vocabulary list automatically,
+                  and use this tool to familarize yourself with any new words!
+                </p>
+                <Link
+                  to="/gadgets/russian-example-vocab-sentence"
+                  className="card-link"
+                >
+                  <button className="btn btn-primary py-1">Try it out</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*End Row*/}
+      </div>
+      {/*End Container*/}
+    </>
   );
 }
 

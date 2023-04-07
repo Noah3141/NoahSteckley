@@ -4,10 +4,10 @@ import Title from "../inc/Title";
 
 function LitReviews() {
   return (
-    <div className="container">
+    <div className="container pb-4">
       <Title title="Literature Reviews" />
 
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/ketogenic-diet">
@@ -23,7 +23,7 @@ function LitReviews() {
         </div>
       </div>
 
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body ">
           <h4>
             <Link to="/articles/literature-reviews/salt-and-health">
@@ -39,7 +39,7 @@ function LitReviews() {
         </div>
       </div>
 
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/ADHD-validity">
@@ -54,7 +54,7 @@ function LitReviews() {
           </p>
         </div>
       </div>
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/ketosis-psychiatry">
@@ -70,7 +70,7 @@ function LitReviews() {
         </div>
       </div>
 
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/metabolism-biopsychosocial">
@@ -85,7 +85,7 @@ function LitReviews() {
           </p>
         </div>
       </div>
-      <div className="card my-4 shadow">
+      <div className="card my-4 bg-info text-light border border-dark border-2 shadow">
         <div className="card-body">
           <h4>
             <Link to="/articles/literature-reviews/sunburn">Sunburn</Link>

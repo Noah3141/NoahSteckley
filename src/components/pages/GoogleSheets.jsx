@@ -1,14 +1,16 @@
 import React from "react";
 import Title from "../inc/Title";
+import Background from "../inc/Background";
 
 function GoogleSheets() {
   return (
     <>
+      <Background className="bg-danger" />
       <div className="container">
         <Title title="Google Sheets" />
       </div>
-      <div className="p-5">
-        <div className="card my-4 bg-info shadow">
+      <div className="px-5">
+        <div className="card my-4 bg-dark shadow">
           <div className="card-body">
             <div>
               <iframe
@@ -22,7 +24,7 @@ function GoogleSheets() {
           </div>
         </div>
 
-        <div className="card my-4 bg-info shadow">
+        <div className="card my-4 bg-dark shadow">
           <div className="card-body">
             <div>
               <iframe
@@ -36,7 +38,7 @@ function GoogleSheets() {
           </div>
         </div>
 
-        <div className="card my-4 bg-info shadow">
+        <div className="card my-4 bg-dark shadow">
           <div className="card-body">
             <div>
               <iframe

@@ -21,6 +21,9 @@ import Navbar from "./components/inc/Navbar";
 import Crumbtrail from "./components/inc/Crumbtrail";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import OtherArts from "./components/pages/OtherArts";
+import RussianArts from "./components/pages/RussianArts";
+import ProgrammingArts from "./components/pages/ProgrammingArts";
 
 function App() {
   return (
@@ -44,6 +47,12 @@ function App() {
               element={<PsychIntegration />}
             />
             <Route path="/articles/my-research/" element={<MyResearch />} />
+            <Route
+              path="/articles/programming/"
+              element={<ProgrammingArts />}
+            />
+            <Route path="/articles/russian/" element={<RussianArts />} />
+            <Route path="/articles/other-topics/" element={<OtherArts />} />
 
             {/* Now the single article specific URLs  */}
             <Route
@@ -56,6 +65,18 @@ function App() {
             />
             <Route
               path="/articles/my-research/:id"
+              element={<Article category="my-research" />}
+            />
+            <Route
+              path="/articles/russian/:id"
+              element={<Article category="my-research" />}
+            />
+            <Route
+              path="/articles/programming/:id"
+              element={<Article category="my-research" />}
+            />
+            <Route
+              path="/articles/other-topics/:id"
               element={<Article category="my-research" />}
             />
 

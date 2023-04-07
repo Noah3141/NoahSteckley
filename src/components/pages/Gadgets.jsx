@@ -1,10 +1,12 @@
 import React from "react";
 import Title from "../inc/Title";
 import { Link } from "react-router-dom";
+import Background from "../inc/Background";
 
 function Gadgets() {
   return (
-    <div className="container-fluid bg-info" style={{ height: "100%" }}>
+    <>
+      <Background className="bg-info" />
       <div className="container bg-info">
         <Title title="Gadgets" className="text-light" />
 
@@ -27,7 +29,7 @@ function Gadgets() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

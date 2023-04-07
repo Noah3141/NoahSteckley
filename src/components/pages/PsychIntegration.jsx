@@ -5,10 +5,13 @@ function LitReviews() {
   return (
     <div className="container">
       <Title title="Essays on Psychotherapy Integration" />
-      <div className="card mt-4 shadow">
+      <div className="mt-4 shadow alert alert-warning border border-dark border-2">
         <div className="card-body ">
           <h4>
-            <Link to="/articles/psychotherapy-integration/gospel-as-theory">
+            <Link
+              className="link-warning"
+              to="/articles/psychotherapy-integration/gospel-as-theory"
+            >
               Psychodynamic Effects of <i>The Sermon on the Mount</i> as an
               Ethical Schema
             </Link>
@@ -21,7 +24,7 @@ function LitReviews() {
           </p>
         </div>
       </div>
-      <div className="card mt-4 shadow">
+      <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
         <div className="card-body">
           <h4>
             <Link to="/articles/psychotherapy-integration/unconscious-full-of-rewards">
@@ -37,7 +40,7 @@ function LitReviews() {
           </p>
         </div>
       </div>
-      <div className="card mt-4 shadow">
+      <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
         <div className="card-body">
           <h4>
             <Link to="/articles/psychotherapy-integration/kingdom-of-heaven-construct">

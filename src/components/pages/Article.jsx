@@ -17,6 +17,12 @@ import ThermogenicErythemaHyp from "./articles/my-research/ThermogenicErythemaHy
 import GospelTheory from "./articles/psychotherapy-integration/GospelTheory";
 import KingdomOfHeaven from "./articles/psychotherapy-integration/KingdomOfHeaven";
 import UnconsciousRewards from "./articles/psychotherapy-integration/UnconsciousRewards";
+// Programming
+import DeployFlaskAmazon from "./articles/programming/DeployFlaskAmazon";
+
+// Russian
+import RussPronunciation from "./articles/Russian/RussPronunciation";
+// Other Topics
 
 function Article(props) {
   let id = useParams().id;
@@ -53,6 +59,15 @@ function Article(props) {
       return <UnconsciousRewards />;
     case "kingdom-of-heaven-construct":
       return <KingdomOfHeaven />;
+
+    // Programming
+    case "deploying-flask-to-amazon":
+      return <DeployFlaskAmazon />;
+
+    // Russian
+    case "russian-pronunciation-IPA":
+      return <RussPronunciation />;
+    // Other Topics
 
     // If no article component is found, "redirect" to the article list page
     default:

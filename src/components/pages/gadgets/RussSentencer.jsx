@@ -90,7 +90,7 @@ function RussSentencer() {
           onSubmit={handleSubmit}
           style={{ display: "flex", gap: "1rem" }}
         >
-          <input type="text"></input>
+          <input type="text" maxlength="25"></input>
           <button className="btn btn-primary btn-sm" type="submit">
             Generate
           </button>

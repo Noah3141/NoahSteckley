@@ -7,7 +7,7 @@ function Crumbtrail() {
   let currentLink = "";
 
   function titleCase(str) {
-    str = str.toLowerCase().split(" "); // Lowercase the phrase and give me an array of its words
+    str = str.split(" "); // Lowercase the phrase and give me an array of its words
     for (var i = 0; i < str.length; i++) {
       // Go word by word in the array
       if (i === 0 || str[i].length >= 3) {
