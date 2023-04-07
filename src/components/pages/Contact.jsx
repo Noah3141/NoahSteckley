@@ -13,7 +13,7 @@ function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              GitHub
             </a>
           </li>
           <li className="mt-3">

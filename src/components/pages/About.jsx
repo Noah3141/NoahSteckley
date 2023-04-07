@@ -14,14 +14,13 @@ function About() {
         <p className="text-light">
           I am very interested in clinical psychology, especially efforts to
           unite the field both theoretically and practically. I believe the
-          creation of a unified theory may be the key to radically successful
-          progress in societal mental health, from couples therapy or treating
-          schizohprenia, to cultural, economic, and political stability. I have
-          read works by Sigmund Freud, Carl Jung, Carl Rogers, and Erich
-          Neumann, and have been trying to integrate these models together with
-          the models of evolution, neuroscience, and comparative religion, which
-          offers the theories found in oral traditions amongst tribal peoples or
-          in religious texts, such as the biblical corpus or the Popol Vuh (the
+          creation of a unified theory may be the key to radical impreovement in
+          public mental health. I have read works by Sigmund Freud, Carl Jung,
+          Carl Rogers, and Erich Neumann, and have been trying to integrate
+          these models together with the models of evolution, neuroscience, and
+          comparative religion, which offers the theories found in oral
+          traditions amongst tribal peoples, and the theories in ancient
+          religious texts, such as the biblical corpus or the Popol Vuh (the
           so-called "Mayan Bible").
         </p>
         <p className="text-light">
@@ -33,13 +32,13 @@ function About() {
         <p className="text-light">
           I was advised to learn to program in order to bolster my applications
           to Clinical Psychology PhD programs. In two months, I learned enough
-          to build a full-stack web application that uses natural language
-          processing to provide dictionary-form coversion of Russian text. I
-          also gained a lot of experience at my work at the time, observing the
-          Google Sheets they had, and subsequently have created about a dozen
-          Google Sheets which perform various levels of data processing. One of
-          these was used to feed a MATLAB script I had written to run
-          statistical analyses on datasets I personally collected.
+          to build a full-stack web application that uses Python and MySQL to
+          provide dictionary-form coversion of Russian text. During this period,
+          I also gained experience with the Google Sheets at my workplace, and
+          subsequently have created about a dozen Google Sheets which perform
+          various levels of data processing. One of these was used to feed a
+          MATLAB script I had written to run statistical analyses on datasets I
+          personally collected.
         </p>
         <h4 className="text-light">Present</h4>
         <p className="text-light">

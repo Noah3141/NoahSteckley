@@ -17,6 +17,15 @@ function Gadgets() {
             </h4>
           </div>
         </div>
+        <div className="card shadow mt-4">
+          <div className="card-body">
+            <h4>
+              <Link to="/gadgets/mind-map">
+                Prototype of: Adversarial Scientific Mind Map
+              </Link>
+            </h4>
+          </div>
+        </div>
       </div>
     </div>
   );
