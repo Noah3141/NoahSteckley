@@ -15,7 +15,13 @@ function Home() {
           <div className=" col-lg-8">
             <div className="card bg-dark shadow mb-3">
               <h5 className="card-header bg-dark">
-                <Link>Russian Vocabulary List Maker</Link>
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  to="http://www.RussianVocabularyListMaker.com/rubit"
+                >
+                  Russian Vocabulary List Maker
+                </Link>
               </h5>
               <div className="card-body bg-dark">
                 <img
