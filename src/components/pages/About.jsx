@@ -33,12 +33,13 @@ function About() {
           I was advised to learn to program in order to bolster my applications
           to Clinical Psychology PhD programs. In two months, I learned enough
           to build a full-stack web application that uses Python and MySQL to
-          provide dictionary-form coversion of Russian text. During this period,
-          I also gained experience with the Google Sheets at my workplace, and
-          subsequently have created about a dozen Google Sheets which perform
-          various levels of data processing. One of these was used to feed a
-          MATLAB script I had written to run statistical analyses on datasets I
-          personally collected.
+          provide lemmatization of Russian text, and parsing according to
+          fundamental verbal morphemes. During this period, I also gained
+          experience with the Google Sheets at my workplace, and subsequently
+          have created about a dozen Google Sheets which perform various levels
+          of data processing. One of these was used to feed a MATLAB script I
+          had written to run statistical analyses on datasets I personally
+          collected.
         </p>
         <h4 className="text-light">Present</h4>
         <p className="text-light">
