@@ -13,7 +13,7 @@ function ProgrammingArts() {
               className="link-success"
               to="/articles/programming/deploying-flask-to-amazon"
             >
-              Deploying a Flask web app to Amazon EC2 Servers
+              Deploying a Flask Web App to Amazon EC2 Servers
             </Link>
           </h4>
           <p>

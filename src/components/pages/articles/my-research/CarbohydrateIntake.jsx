@@ -16,6 +16,7 @@ function CarbohydrateIntake() {
           seamless
           frameborder="1"
           title="Weight Over Time"
+          alt="Graph of weight over time"
           scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIQwwNXZxwPC8bpGUUs3ybKFe6RpFX75OacKDwe8bosdCaeGdSg4aVruWrxGIsVhaXIMFfgq77K0W7/pubchart?oid=1687962772&amp;format=interactive"
         ></iframe>

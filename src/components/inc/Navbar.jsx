@@ -22,8 +22,8 @@ function Navbar() {
           <span className="navbar-toggler-icon "></span>
         </button>
 
-        <Link className="navbar-brand m-0" to="/">
-          <img className="img " width="50px" src={logo} alt="logo" />
+        <Link className="navbar-brand p-0 m-0" to="/">
+          <img className="img m-0" width="55px" src={logo} alt="logo" />
         </Link>
 
         <div

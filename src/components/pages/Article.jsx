@@ -21,7 +21,7 @@ import UnconsciousRewards from "./articles/psychotherapy-integration/Unconscious
 import DeployFlaskAmazon from "./articles/programming/DeployFlaskAmazon";
 
 // Russian
-import RussPronunciation from "./articles/Russian/RussPronunciation";
+import RussPronunciation from "./articles/russian/RussPronunciation";
 // Other Topics
 
 function Article(props) {
