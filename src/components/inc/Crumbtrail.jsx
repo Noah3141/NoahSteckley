@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 
 function Crumbtrail() {
   const location = useLocation();
-  console.log(location);
 
   let currentLink = "";
 

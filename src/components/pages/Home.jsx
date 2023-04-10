@@ -3,6 +3,7 @@ import Title from "../inc/Title";
 import Background from "../inc/Background";
 import { Link } from "react-router-dom";
 import Dataflow from "../images/Data_Flow.png";
+import RussGreeting from "../sounds/Ru-здравствуйте.ogg";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
                   alt="Diagram of Russian Website"
                 />
               </div>
+
               <div className="card-footer">
                 <p className="card-text text-light">
                   A tool that lets you generate vocabulary lists from input
@@ -63,7 +65,22 @@ function Home() {
                   id. Debitis, hic quos! Iusto, voluptatum! Lorem ipsum dolor
                   sit amet consectetur adipisicing elit. Ex architecto aut,
                   repudiandae.
+                  <audio
+                    controls
+                    className="mt-3"
+                    style={{
+                      width: "250px",
+                      height: "30px",
+                      border: "2px solid black",
+                      borderRadius: "15px",
+                    }}
+                    src={RussGreeting}
+                  >
+                    Source
+                    <Link to="https://en.wiktionary.org/wiki/File:Ru-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.ogg"></Link>
+                  </audio>
                 </p>
+
                 <Link
                   to="/articles/russian/russian-pronunciation-IPA"
                   className="card-link"
@@ -73,17 +90,19 @@ function Home() {
               </div>
             </div>
 
-            <div class="card shadow bg-dark mb-3">
-              <div class="card-header fs-4 text-danger">Maps of Meaning</div>
-              <div class="card-body bg-dark  rounded-bottom-1">
-                <blockquote class="blockquote mb-0 text-light ">
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-header fs-4 text-danger">
+                Maps of Meaning
+              </div>
+              <div className="card-body bg-dark  rounded-bottom-1">
+                <blockquote className="blockquote mb-0 text-light ">
                   <p className="fs-12">
                     The capacity to create novel behaviors and categories of
                     interpretation in response to the emergence of the unknown
                     might be regarded as the primary hallmark of human
                     consciousness—indeed, of human being.
                   </p>
-                  <footer class="blockquote-footer">
+                  <footer className="blockquote-footer">
                     <cite title="Source Title">Jordan Peterson </cite>
                   </footer>
                 </blockquote>

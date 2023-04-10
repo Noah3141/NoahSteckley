@@ -1,9 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../images/Logo600-loose.png";
 import EngRuss from "./EngRuss";
+import { useEffect } from "react";
 
 function Navbar() {
+  const location = useLocation();
+
+  useEffect(() => {
+    let extension = location.pathname.split("/")[1];
+    if (extension === "") {
+      extension = "home";
+    }
+    console.log(`#${extension}-header`);
+    const activeHeader = document.querySelector(`#${extension}-header`);
+    if (activeHeader) {
+      activeHeader.classList.add("link-active");
+      return () => {
+        activeHeader.classList.remove("link-active");
+      };
+    }
+  }, [location.pathname]);
+
   return (
     <nav
       className="navbar fs-5 fixed-top navbar-expand-lg bg-dark shadow"
@@ -31,15 +49,18 @@ function Navbar() {
           id="navbarNav"
         >
           <ul className="navbar-nav me-auto pt-2 p-4 mb-2 p-lg-0 mb-lg-0">
-            <li className="nav-item dropdown">
-              <Link to="/" className="nav-link mx-lg-3 text-light">
+            <li id="home-header" className="nav-item dropdown mx-lg-3">
+              <Link to="/" className="nav-link text-light">
                 Home
               </Link>
             </li>
 
             {/* The dropdown button for "Articles" */}
 
-            <li className="nav-item dropdown ms-lg-2 text-light mx-lg-1">
+            <li
+              id="articles-header"
+              className="nav-item dropdown ms-lg-2 text-light mx-lg-1"
+            >
               <Link
                 to="/articles"
                 className="nav-link dropdown-toggle text-light"
@@ -49,53 +70,41 @@ function Navbar() {
               >
                 Articles
               </Link>
-              <ul className="dropdown-menu bg-info border border-black fs-5">
-                <li>
-                  <Link
-                    className="dropdown-item text-primary"
-                    to="/articles/my-research"
-                  >
+              {/* This div is the unfold menu for Articles*/}
+              <ul className="dropdown-menu bg-info border border-dark border-2 fs-5">
+                <li className="dropdown-item">
+                  <Link className="text-primary" to="/articles/my-research">
                     My Research Papers
                   </Link>
                 </li>
-                <li>
+                <li className="dropdown-item">
                   <Link
-                    className="dropdown-item text-primary"
+                    className=" text-primary"
                     to="/articles/literature-reviews"
                   >
                     Literature Reviews
                   </Link>
                 </li>
-
-                <li>
+                <li className="dropdown-item">
                   <Link
-                    className="dropdown-item text-primary"
+                    className=" text-primary"
                     to="/articles/psychotherapy-integration"
                   >
                     Psychotherapy Integration
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="dropdown-item text-primary"
-                    to="/articles/programming"
-                  >
+                <li className="dropdown-item">
+                  <Link className="text-primary" to="/articles/programming">
                     Programming
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="dropdown-item text-primary"
-                    to="/articles/russian"
-                  >
+                <li className="dropdown-item">
+                  <Link className=" text-primary" to="/articles/russian">
                     Russian Language
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="dropdown-item text-primary"
-                    to="/articles/other-topics"
-                  >
+                <li className="dropdown-item">
+                  <Link className=" text-primary" to="/articles/other-topics">
                     Other Topics
                   </Link>
                 </li>
@@ -104,27 +113,30 @@ function Navbar() {
 
             {/* The basic Links along left */}
 
-            <li className="nav-item dropdown mx-lg-1  ">
+            <li id="websites-header" className="nav-item dropdown mx-lg-1  ">
               <Link to="/websites" className="nav-link text-light">
                 Websites
               </Link>
             </li>
-            <li className="nav-item dropdown mx-lg-1  ">
+            <li id="graphics-header" className="nav-item dropdown mx-lg-1  ">
               <Link to="/graphics" className="nav-link text-light">
                 Graphics
               </Link>
             </li>
-            <li className="nav-item dropdown mx-lg-1  ">
-              <Link to="/sheets" className="nav-link text-light">
+            <li id="sheets-header" className="nav-item dropdown mx-lg-1  ">
+              <Link to="/sheets" className="nav-link text-light text-nowrap">
                 Google Sheets
               </Link>
             </li>
-            <li className="nav-item dropdown mx-lg-1">
-              <Link to="/book-reviews" className="nav-link text-light">
+            <li id="book-reviews-header" className="nav-item dropdown mx-lg-1">
+              <Link
+                to="/book-reviews"
+                className="nav-link text-light text-nowrap"
+              >
                 Book Reviews
               </Link>
             </li>
-            <li className="nav-item dropdown mx-lg-1">
+            <li id="gadgets-header" className="nav-item dropdown mx-lg-1">
               <Link to="/gadgets" className="nav-link  text-light">
                 Gadgets
               </Link>
@@ -132,12 +144,12 @@ function Navbar() {
           </ul>
           {/* The right hand side */}
           <ul className="navbar-nav ms-auto pe-4 pe-lg-0 pb-4 pb-lg-0">
-            <li className="nav-item dropdown">
+            <li id="about-header" className="nav-item dropdown">
               <Link className="nav-link text-light" to="/about">
                 About
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            <li id="contact-header" className="nav-item dropdown">
               <Link className="nav-link text-light  " to="/contact">
                 Contact
               </Link>

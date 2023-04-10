@@ -23,18 +23,37 @@ code {
 }
 
 .nav-link::before {
-  transition: all 0.2s;
+  transition: all ease-in-out 0.2s;
   content: "";
   height: 3px;
-  border-radius: 2px;
-  width: 100%;
+  border-radius: 1.5px;
+  width: 0;
   position: absolute;
-  background-color: $success;
-  left: 0;
+  background-color: $warning;
+  left: 50%;
   bottom: 0;
+  transform: translateX(-50%);
+  transform-origin: center;
   opacity: 0;
 }
 
 .nav-link:hover::before {
   opacity: 1;
+  width: 100%;
+}
+
+.link-active::before {
+  transition: all 0.2s;
+  content: "";
+  height: 3px;
+  border-radius: 1.5px;
+  width: 100%;
+  position: absolute;
+  background-color: $primary;
+  left: 0;
+  bottom: 0;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: $info-subtle;
 }
