@@ -20,7 +20,7 @@ function LitReviews() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
             qui reiciendis, temporibus repudiandae maxime quae nisi ex
             necessitatibus possimus, autem nulla laborum ipsam voluptatum quas
-            sit dolores veniam aperiam provident.
+            sit dolores veniam aperiam.
           </p>
         </div>
       </div>
