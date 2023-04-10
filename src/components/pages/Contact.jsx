@@ -18,6 +18,8 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          document.getElementById("contact-form").reset();
+          document.querySelector("#email-success").style.top = "90px";
         },
         (error) => {
           console.log(error.text);
@@ -118,6 +120,26 @@ function Contact() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div
+        id="email-success"
+        className="alert shadow alert-success alert-dismissible fade show mt-4"
+        role="alert"
+        style={{
+          position: "fixed",
+          top: "-90px",
+          right: "60px",
+          transition: "ease-in-out all .3s",
+        }}
+      >
+        <div className="alert-text">Success! Your email has been sent.</div>
+        <button
+          type="button"
+          className="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
       </div>
     </div>
   );
