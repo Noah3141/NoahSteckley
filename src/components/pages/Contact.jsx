@@ -1,9 +1,30 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 
 import Title from "../inc/Title";
 import Background from "../inc/Background";
 
 function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_v49r78d",
+        "template_d9ilglr",
+        "#contact-form",
+        "oARiHAvEyIEZiQfD7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="container">
       <Background className="bg-info" />
@@ -14,16 +35,20 @@ function Contact() {
           <div className=" shadow card mt-2 mx-auto p-1 bg-dark">
             <div className="card-body bg-dark">
               <div className="container">
-                <form className="text-success" id="contact-form">
+                <form
+                  onSubmit={sendEmail}
+                  className="text-success"
+                  id="contact-form"
+                >
                   <div className="controls">
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
-                          <label htmlFor="form_name">First name</label>
+                          <label htmlFor="first_name">First name</label>
                           <input
-                            id="form_name"
+                            id="first_name"
                             type="text"
-                            name="name"
+                            name="from_name"
                             className="form-control my-2"
                             placeholder="Please enter your first name"
                             required="required"
@@ -37,7 +62,7 @@ function Contact() {
                           <input
                             id="form_email"
                             type="email"
-                            name="email"
+                            name="from_email"
                             className="form-control  my-2"
                             placeholder="Please enter your email"
                             required="required"
@@ -55,7 +80,7 @@ function Contact() {
                             type="text"
                             name="subject"
                             className="form-control  my-2"
-                            placeholder="Please enter an mail subject"
+                            placeholder="Please enter an email subject"
                             required="required"
                             data-error="Firstname is required"
                           />
@@ -73,7 +98,7 @@ function Contact() {
                             placeholder="Write your message here"
                             rows="4"
                             required="required"
-                            data-error="Please, leave us a message"
+                            data-error="Please, send me a message here"
                           ></textarea>
                         </div>
                       </div>

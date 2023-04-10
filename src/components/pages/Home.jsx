@@ -1,4 +1,6 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
+
 import Title from "../inc/Title";
 import Background from "../inc/Background";
 import { Link } from "react-router-dom";
@@ -6,6 +8,26 @@ import Dataflow from "../images/Data_Flow.png";
 import RussGreeting from "../sounds/Ru-здравствуйте.ogg";
 
 function Home() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_v49r78d",
+        "template_d9ilglr",
+        "#contact-form",
+        "oARiHAvEyIEZiQfD7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <Background className="bg-info" />
@@ -131,6 +153,59 @@ function Home() {
                 >
                   <button className="btn btn-primary py-1">Try it out</button>
                 </Link>
+              </div>
+            </div>
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body">
+                <h5 className="card-title text-primary">Contact Me</h5>
+                <h6 className="card-subtitle mb-2 text-danger">
+                  Send an Email
+                </h6>
+                <form onSubmit={sendEmail} id="contact-form" className="form">
+                  <input
+                    id="first_name"
+                    type="text"
+                    name="from_name"
+                    className="form-control my-2"
+                    placeholder="First name"
+                    required="required"
+                    data-error="Firstname is required"
+                  />
+
+                  <input
+                    id="form_email"
+                    type="email"
+                    name="from_email"
+                    className="form-control  my-2"
+                    placeholder="Email"
+                    required="required"
+                    data-error="Valid email is required"
+                  />
+                  <input
+                    id="form_subject"
+                    type="text"
+                    name="subject"
+                    className="form-control  my-2"
+                    placeholder="Subject"
+                    required="required"
+                    data-error="Firstname is required"
+                  />
+                  <textarea
+                    id="form_message"
+                    name="message"
+                    className="form-control  my-2"
+                    placeholder="Write your message here"
+                    rows="4"
+                    required="required"
+                    data-error="Please, send me a message here"
+                  ></textarea>
+
+                  <input
+                    type="submit"
+                    value="Send Message"
+                    className="btn btn-primary btn-send py-1"
+                  />
+                </form>
               </div>
             </div>
           </div>
