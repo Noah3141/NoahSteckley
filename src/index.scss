@@ -23,7 +23,7 @@ code {
 }
 
 .nav-link::before {
-  transition: all ease-in-out 0.2s;
+  transition: all 0.2s;
   content: "";
   height: 3px;
   border-radius: 1.5px;
@@ -34,7 +34,7 @@ code {
   bottom: 0;
   transform: translateX(-50%);
   transform-origin: center;
-  opacity: 0;
+  opacity: 20%;
 }
 
 .nav-link:hover::before {
@@ -52,6 +52,7 @@ code {
   background-color: $primary;
   left: 0;
   bottom: 0;
+  opacity: 1;
 }
 
 .dropdown-menu .dropdown-item:hover {

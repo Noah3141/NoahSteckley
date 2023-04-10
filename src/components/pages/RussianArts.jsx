@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Title from "../inc/Title";
 
 function RussianArts() {
@@ -10,7 +11,7 @@ function RussianArts() {
         <div className="card-body ">
           <h4>
             <Link
-              className="link-warning"
+              className="link-success"
               to="/articles/russian/russian-pronunciation-IPA"
             >
               ['spʲik 'raʂn vɨt'aʊt 'ɛksɛnt] (Speak Russian without an Accent)
