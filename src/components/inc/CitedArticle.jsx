@@ -16,6 +16,12 @@ function CitedArticle(props) {
     quote_2,
     quote_3,
   } = props;
+
+  type = type;
+  quote_1 = quote_1;
+  quote_2 = quote_2;
+  quote_3 = quote_3;
+
   return (
     <div className="card mb-5 border-dark bg-dark border-3 shadow">
       <h5 className="card-header bg-dark text-danger">{title}</h5>
