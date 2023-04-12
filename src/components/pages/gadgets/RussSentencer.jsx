@@ -128,7 +128,7 @@ function RussSentencer() {
                 <span>{trans}</span>
               </h3>
               <button onClick={switchShow} className="btn btn-success">
-                Show English
+                Toggle English
               </button>
             </>
           )}
