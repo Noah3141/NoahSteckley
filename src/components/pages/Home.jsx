@@ -228,10 +228,11 @@ function Home() {
                   ChatGPT Powered Language Studying
                 </h6>
                 <p className="card-text text-success">
-                  Want to listen to a Russian podcast, without struggling to
-                  follow the conversation? Or read a book without stopping to
-                  look up words so much? Create a vocabulary list automatically,
-                  and use this tool to familarize yourself with any new words!
+                  Learning Russian and want to listen to a Russian podcast,
+                  without struggling to follow the conversation? Or read a book
+                  without stopping to look up words so much? Create a vocabulary
+                  list automatically, and use this tool to familarize yourself
+                  with any new words!
                 </p>
                 <Link
                   to="/gadgets/russian-example-vocab-sentence"

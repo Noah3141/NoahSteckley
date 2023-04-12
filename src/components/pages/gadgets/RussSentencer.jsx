@@ -30,12 +30,13 @@ function RussSentencer() {
         console.log(res.data.choices[0].message.content);
 
         const outputLine = res.data.choices[0].message.content;
-        const russOutput = outputLine.split(". ")[0] + ".";
+        const russOutput = outputLine.split(" (")[0];
         const engOutput = outputLine
-          .split(". ")[1]
+          .split(" (")[1]
           .replace("(", "")
           .replace(")", "");
 
+        console.log(engOutput);
         setSentence(russOutput);
         setTrans(engOutput);
       });
