@@ -5,7 +5,7 @@ import Title from "../inc/Title";
 function ProgrammingArts() {
   return (
     <div className="container">
-      <Title title="Russian" />
+      <Title title="Programming" />
       <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
         <div className="card-body ">
           <h4>

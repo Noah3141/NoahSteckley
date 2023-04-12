@@ -135,10 +135,9 @@ function RussSentencer() {
         </div>
         <br />
         <p className="text-light card-footer pb-1 mb-0">
-          The outline contains the English translation.
-          <br /> Keep in mind, this version of ChatGPT is not terribly good at
-          Russian grammar. While it provides good example sentences, they tend
-          to contain grammatical errors in case, gender, number etc.!
+          Keep in mind, this version of ChatGPT is not terribly good at Russian
+          grammar. While it provides good example sentences, they tend to
+          contain grammatical errors in case, gender, number etc.!
         </p>
       </div>
     </div>
