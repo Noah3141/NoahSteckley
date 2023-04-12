@@ -8,7 +8,10 @@ function Websites() {
       <Title title="My Websites" />
       <div className="card bg-info mt-4 shadow">
         <div className="fs-3 card-header">
-          <Link to="http://RussianVocabularyListMaker.com/" target="_blank">
+          <Link
+            to="http://www.RussianVocabularyListMaker.com/rubit"
+            target="_blank"
+          >
             Russian Vocabulary List Maker
           </Link>
         </div>
