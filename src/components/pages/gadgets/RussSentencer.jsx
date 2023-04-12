@@ -30,6 +30,9 @@ function RussSentencer() {
         console.log(res.data.choices[0].message.content);
 
         const outputLine = res.data.choices[0].message.content;
+        {
+          /* This is written in a very volatile manner. Any change in ChatGPT's whim-like habits will completely break the gadget. Currently requires that it continue to end responses with English in parentheses (which the prompt does not explicitly ask)*/
+        }
         const russOutput = outputLine.split(" (")[0];
         const engOutput = outputLine
           .split(" (")[1]
@@ -38,13 +41,34 @@ function RussSentencer() {
 
         console.log(engOutput);
         setSentence(russOutput);
+        let engTrans = document.getElementById("engTrans");
+        if (engTrans.classList.contains("text-success")) {
+          engTrans.classList.remove("text-success");
+          engTrans.classList.add("text-info");
+        }
         setTrans(engOutput);
       });
     }
+
     GPT3(
       `Write me an example Russian sentence that uses the word ${inputValue}, followed by the English translation in parentheses.`
     );
   };
+
+  function switchShow() {
+    let engTrans = document.getElementById("engTrans");
+    if (engTrans === null) {
+      console.log("Couldn't find English Translation!");
+    }
+
+    if (engTrans.classList.contains("text-info")) {
+      engTrans.classList.remove("text-info");
+      engTrans.classList.add("text-success");
+    } else {
+      engTrans.classList.remove("text-success");
+      engTrans.classList.add("text-info");
+    }
+  }
 
   return (
     <div className="container">
@@ -96,12 +120,17 @@ function RussSentencer() {
             Generate
           </button>
         </form>
-        <div className="card-body">
+        <div id="engTrans" className="card-body  text-info">
           {sentence && <h3 className="text-primary my-3">{sentence}</h3>}
           {trans && (
-            <h3 className="border rounded-2 border-light p-1">
-              <span>{trans}</span>
-            </h3>
+            <>
+              <h3 className="p-1">
+                <span>{trans}</span>
+              </h3>
+              <button onClick={switchShow} className="btn btn-success">
+                Show English
+              </button>
+            </>
           )}
         </div>
         <br />
