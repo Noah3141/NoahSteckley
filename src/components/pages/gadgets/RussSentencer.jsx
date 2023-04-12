@@ -30,9 +30,9 @@ function RussSentencer() {
         console.log(res.data.choices[0].message.content);
 
         const outputLine = res.data.choices[0].message.content;
-        {
-          /* This is written in a very volatile manner. Any change in ChatGPT's whim-like habits will completely break the gadget. Currently requires that it continue to end responses with English in parentheses (which the prompt does not explicitly ask)*/
-        }
+
+        /* This is written in a very volatile manner. Any change in ChatGPT's whim-like habits will completely break the gadget. Currently requires that it continue to end responses with English in parentheses (which the prompt does not explicitly ask)*/
+
         const russOutput = outputLine.split(" (")[0];
         const engOutput = outputLine
           .split(" (")[1]
