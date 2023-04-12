@@ -38,16 +38,100 @@ function Home() {
         <div className="row my-4">
           {/* Left hand column*/}
           <div className=" col-lg-8">
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body ">
+                <h3 className="card-title">
+                  <Link to="/articles/literature-reviews/ketosis-psychiatry">
+                    Ketogenic Diet as a Psychiatric Intervention
+                  </Link>
+                </h3>
+                <h5 className="card-subtitle mb-2 text-warning">
+                  A Meta-Review
+                </h5>
+                <p className="card-text text-success">
+                  What does the current state of the literature say about the
+                  effect of ketogenic diets on mental health conditions? This
+                  realm of research is still considered very new, but it already
+                  has a great deal of quite impressive empirical data, backed
+                  with solid theoretical reasoning. The current primary
+                  hypothesis is that any given person is <i>likely</i> to see
+                  mental health improvement from a ketogenic diet, and evidence
+                  shows some will see amazing improvements.
+                </p>
+
+                <Link
+                  to="/articles/literature-reviews/ketosis-psychiatry"
+                  className="card-link"
+                >
+                  Read more...
+                </Link>
+              </div>
+            </div>
+
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body ">
+                <h3 className="card-title">
+                  <Link to="/articles/programming/rust-programming-language">
+                    Programming with Rust
+                  </Link>
+                </h3>
+                <h5 className="card-subtitle mb-2 text-warning">
+                  A Different Take on Memory-Safety
+                </h5>
+                <p className="card-text text-success">
+                  A guide on the basics of Rust, including how to understand the
+                  borrow-checker, and an overview of the tools for basic
+                  projects... (Not affiliated with Rust Foundation in any
+                  manner)
+                </p>
+
+                <Link
+                  to="/articles/programming/rust-programming-language"
+                  className="card-link"
+                >
+                  Read more...
+                </Link>
+              </div>
+            </div>
+
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body ">
+                <h3 className="card-title">
+                  <Link to="/articles/programming/rust-programming-language">
+                    Sunburn: A Civilization Disease
+                  </Link>
+                </h3>
+                <h5 className="card-subtitle mb-2 text-danger">
+                  An Evolutionary Approach to Sun Exposure
+                </h5>
+                <p className="card-text text-success">
+                  The idea that I <i>need</i> sunscreen, a modern chemical
+                  invention, to protect my body, which has been adapting to the
+                  environment (sun included) for over 80 million years, has
+                  never sat quite right with me. The idea that the sun is "an
+                  evil deathray" doesn't much either. We have the evidence and
+                  the theory to believe otherwise, so what is up?
+                </p>
+
+                <Link
+                  to="/articles/programming/rust-programming-language"
+                  className="card-link"
+                >
+                  Read more...
+                </Link>
+              </div>
+            </div>
+
             <div className="card bg-dark shadow mb-3">
-              <h5 className="card-header bg-dark">
+              <h3 className="card-header bg-dark">
                 <Link
                   target="_blank"
                   rel="noreferrer"
                   to="http://www.RussianVocabularyListMaker.com/rubit"
                 >
-                  Russian Vocabulary List Maker
+                  RussianVocabularyListMaker.com
                 </Link>
-              </h5>
+              </h3>
               <div className="card-body bg-dark">
                 <img
                   style={{ position: "relative", width: "100%" }}
@@ -74,14 +158,14 @@ function Home() {
             {/* The Russian Article Card  */}
             <div className="card shadow bg-dark mb-3">
               <div className="card-body ">
-                <h5 className="card-title text-primary">
+                <h4 className="card-title text-primary">
                   <Link to="/articles/russian/russian-pronunciation-IPA">
                     ['spʲik 'raʂn vɨt'aʊt 'ɛksɛnt]
                   </Link>
-                </h5>
-                <h6 className="card-subtitle mb-2 text-danger">
+                </h4>
+                <h5 className="card-subtitle mb-2 text-danger">
                   Speak Russian without an Accent
-                </h6>
+                </h5>
                 <p className="card-text text-success">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
                   dicta vel incidunt numquam. Eius maiores odit eveniet
@@ -115,12 +199,12 @@ function Home() {
             </div>
 
             <div className="card shadow bg-dark mb-3">
-              <div className="card-header fs-4 text-danger">
+              <div className="card-header fs-5 text-danger">
                 Maps of Meaning
               </div>
               <div className="card-body bg-dark  rounded-bottom-1">
                 <blockquote className="blockquote mb-0 text-light ">
-                  <p className="fs-12">
+                  <p className="fs-6">
                     The capacity to create novel behaviors and categories of
                     interpretation in response to the emergence of the unknown
                     might be regarded as the primary hallmark of human

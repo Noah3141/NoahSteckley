@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Title from "../inc/Title";
 
@@ -9,8 +8,23 @@ function MyResearch() {
       <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
         <div className="card-body">
           <h4>
+            <Link to="/articles/my-research/literature-review-methods">
+              Literature Review Metholody
+            </Link>
+          </h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Accusantium ratione dolorum possimus accusamus, aliquam eius fugiat
+            molestiae quaerat at similique vitae doloribus repellendus
+            cupiditate est, consequuntur maxime pariatur amet corrupti?
+          </p>
+        </div>
+      </div>
+      <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
+        <div className="card-body">
+          <h4>
             <Link to="/articles/my-research/thermogenic-erythema">
-              Is Sunburn Really <i>Caused</i> by the UV radiation?
+              Preventing Sunburn with Naturalistic Biofeedback
             </Link>
           </h4>
           <p>Research currently underway</p>

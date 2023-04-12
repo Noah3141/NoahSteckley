@@ -1,7 +1,7 @@
 import React from "react";
 
 function Sunburn() {
-  return <div>Sunburn</div>;
+  return <div className="container"></div>;
 }
 
 export default Sunburn;

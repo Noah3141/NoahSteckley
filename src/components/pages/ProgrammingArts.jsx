@@ -24,6 +24,23 @@ function ProgrammingArts() {
           </p>
         </div>
       </div>
+      <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
+        <div className="card-body ">
+          <h4>
+            <Link
+              className="link-primary"
+              to="/articles/programming/rust-programming-language"
+            >
+              Rust Programming Language
+            </Link>
+          </h4>
+          <p>
+            A guide on the basics of Rust, including how to understand the
+            borrow-checker, and an overview of the tools for basic projects...
+            (Not affiliated with Rust Foundation in any manner)
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
