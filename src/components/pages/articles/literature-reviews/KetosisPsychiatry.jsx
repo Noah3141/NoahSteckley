@@ -31,7 +31,7 @@ function KetosisPsychiatry() {
           year="2021"
           journal="Mental Health Clinician, 11"
           pub_pp="(3), 211-219"
-          type="Search based review"
+          type=""
           method="A search was conducted using EBSCOhost and PubMed databases for studies relating to ketogenic or low-carbohydrate diets and psychiatric disorders."
           results="A total of 32 experimental or observational studies were identified by initial search strategies, 14 of which met the criteria to be included in this analysis. Although specific diet formulations varied somewhat between studies, they all generally examined low-carbohydrate dietary intake with the goal of producing a ketotic state. The studies included in this review indicated the KD was beneficial in reducing symptoms associated with various psychiatric disorders."
           concl=" Data from the studies analyzed demonstrated a positive response in individuals who were able to remain on the diet, regardless of the disease state. "
