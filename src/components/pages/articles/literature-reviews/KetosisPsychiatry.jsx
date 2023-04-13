@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../../../inc/Title";
 import Background from "../../../inc/Background";
 import CitedArticle from "../../../inc/CitedArticle";
-import { Link } from "react-router-dom";
 
 function KetosisPsychiatry() {
   return (
@@ -22,11 +21,6 @@ function KetosisPsychiatry() {
           problematic, but the effect of this on hypothesis-primacy should be
           washed out by comparatively invariable themes within the literature.
         </p>
-        <h4>
-          <Link to="/articles/my-research/literature-review-methods">
-            A Note About Assessing Large Literature Pools
-          </Link>{" "}
-        </h4>
       </div>
 
       <div className="container bg-light shadow rounded text-dark px-5 rounded-2 pb-4">

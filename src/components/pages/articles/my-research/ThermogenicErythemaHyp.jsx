@@ -1,8 +1,10 @@
 import Experiment_01 from "../../../images/Sunburn_Exp_01.png";
+import Background from "../../../inc/Background";
 
 function ThermogenicErythemaHyp() {
   return (
     <div className="container pb-4">
+      <Background className="bg-primary-subtle" />
       <h3 className="mt-4 mb-2">Experiment 1 (4/11/2023)</h3>
       <h4>Initial observations on data patterns and experimental procedures</h4>
       <p>
