@@ -11,15 +11,15 @@ function KetosisPsychiatry() {
         <Title title="Ketogenic Diets as a Psychiatric Intervention" />
         <h3>A Meta Review</h3>
         <p className="">
-          Research currently published reviews since 2021 were collected using
-          Google Scholar. The prompt "Ketogenic Diets as a Psychiatric
-          Intervention" garnered "about 1800" results. Of these, the first XX
-          were parsed into the snippets below. All studies from the search are
-          included (even if they are off-topic), in the order they appeared in
-          the search. The parsing of these articles sometimes decontextualized
-          statements which in the original context may have read as more or less
-          problematic, but the effect of this on hypothesis-primacy should be
-          washed out by comparatively invariable themes within the literature.
+          Research reviews published since 2021 were collected using Google
+          Scholar. The prompt "Ketogenic Diets as a Psychiatric Intervention"
+          garnered "about 1800" results. Of these, the first XX were parsed into
+          the snippets below. All studies from the search are included (even if
+          they are off-topic), in the order they appeared in the search. The
+          parsing of these articles sometimes decontextualized statements which
+          in the original context may have read as more or less problematic, but
+          the effect of this on hypothesis-primacy should be washed out by
+          comparatively invariable themes within the literature.
         </p>
       </div>
 
