@@ -52,7 +52,7 @@ function Article(props) {
       return <AlcoholConsumption />;
     case "carbohydrate-intake":
       return <CarbohydrateIntake />;
-    case "thermogenic-erythema":
+    case "evolutionary-approach-to-sunburn":
       return <ThermogenicErythemaHyp />;
     case "literature-review-methods":
       return <LiteratureReviewMethod />;

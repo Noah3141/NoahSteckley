@@ -71,33 +71,7 @@ function Home() {
             <div className="card shadow bg-dark mb-3">
               <div className="card-body ">
                 <h3 className="card-title">
-                  <Link to="/articles/programming/rust-programming-language">
-                    Programming with Rust
-                  </Link>
-                </h3>
-                <h5 className="card-subtitle mb-2 text-warning">
-                  A Different Take on Memory-Safety
-                </h5>
-                <p className="card-text text-success">
-                  A guide on the basics of Rust, including how to understand the
-                  borrow-checker, and an overview of the tools for basic
-                  projects... (Not affiliated with Rust Foundation in any
-                  manner)
-                </p>
-
-                <Link
-                  to="/articles/programming/rust-programming-language"
-                  className="card-link"
-                >
-                  Read more...
-                </Link>
-              </div>
-            </div>
-
-            <div className="card shadow bg-dark mb-3">
-              <div className="card-body ">
-                <h3 className="card-title">
-                  <Link to="/articles/programming/rust-programming-language">
+                  <Link to="/articles/my-research/evolutionary-approach-to-sunburn">
                     Sunburn: A Civilization Disease
                   </Link>
                 </h3>
@@ -114,7 +88,7 @@ function Home() {
                 </p>
 
                 <Link
-                  to="/articles/programming/rust-programming-language"
+                  to="/articles/my-research/evolutionary-approach-to-sunburn"
                   className="card-link"
                 >
                   Read more...
@@ -220,7 +194,7 @@ function Home() {
             <div className="card shadow bg-dark mb-3">
               <div className="card-body">
                 <h5 className="card-title text-primary">
-                  <Link to="/gadgets/russian-example-vocab-sentence">
+                  <Link to="/tools/russian-example-vocab-sentence">
                     Generate Russian Example Sentence
                   </Link>
                 </h5>
@@ -235,7 +209,7 @@ function Home() {
                   with any new words!
                 </p>
                 <Link
-                  to="/gadgets/russian-example-vocab-sentence"
+                  to="/tools/russian-example-vocab-sentence"
                   className="card-link"
                 >
                   <button className="btn btn-primary py-1">Try it out</button>

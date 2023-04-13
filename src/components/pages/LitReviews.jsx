@@ -15,10 +15,14 @@ function LitReviews() {
             </Link>
           </h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            dolore itaque neque architecto quaerat aliquid natus voluptatem
-            perspiciatis quae nulla rem ullam, debitis iste labore consequatur?
-            Esse quibusdam rerum magni.
+            What does the current state of the literature say about the effect
+            of ketogenic diets on mental health conditions? This realm of
+            research is still considered very new, but it already has a great
+            deal of quite impressive empirical data, backed with solid
+            theoretical reasoning. The current primary hypothesis is that any
+            given person is likely to see mental health improvement from a
+            ketogenic diet, and evidence shows some will see amazing
+            improvements.
           </p>
         </div>
       </div>

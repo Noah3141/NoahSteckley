@@ -75,7 +75,7 @@ function Navbar() {
               <ul className="dropdown-menu bg-info border border-dark border-2 fs-5">
                 <li className="dropdown-item">
                   <Link className="text-primary" to="/articles/my-research">
-                    My Research Papers
+                    My Research
                   </Link>
                 </li>
                 <li className="dropdown-item">
@@ -137,9 +137,9 @@ function Navbar() {
                 Book Reviews
               </Link>
             </li>
-            <li id="gadgets-header" className="nav-item dropdown mx-lg-1">
-              <Link to="/gadgets" className="nav-link  text-light">
-                Gadgets
+            <li id="tools-header" className="nav-item dropdown mx-lg-1">
+              <Link to="/tools" className="nav-link  text-light">
+                Tools
               </Link>
             </li>
           </ul>

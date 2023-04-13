@@ -3,17 +3,17 @@ import Title from "../inc/Title";
 import { Link } from "react-router-dom";
 import Background from "../inc/Background";
 
-function Gadgets() {
+function Tools() {
   return (
     <>
       <Background className="bg-info" />
       <div className="container bg-info">
-        <Title title="Gadgets" className="text-light" />
+        <Title title="Tools" className="text-light" />
 
         <div className="card shadow mt-4">
           <div className="card-body">
             <h4>
-              <Link to="/gadgets/russian-example-vocab-sentence">
+              <Link to="/tools/russian-example-vocab-sentence">
                 Example Russian Sentence from Vocab Word
               </Link>
             </h4>
@@ -22,8 +22,8 @@ function Gadgets() {
         <div className="card shadow mt-4">
           <div className="card-body">
             <h4>
-              <Link to="/gadgets/mind-map">
-                Prototype of: Adversarial Scientific Mind Map
+              <Link to="/tools/mind-map">
+                (Adversarial Scientific Mind Map) Placeholder
               </Link>
             </h4>
           </div>
@@ -33,4 +33,4 @@ function Gadgets() {
   );
 }
 
-export default Gadgets;
+export default Tools;

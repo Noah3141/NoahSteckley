@@ -8,8 +8,8 @@ import Graphics from "./components/pages/Graphics";
 import GoogleSheets from "./components/pages/GoogleSheets";
 import BookReviews from "./components/pages/BookReviews";
 
-import Gadgets from "./components/pages/Gadgets";
-import RussSentencer from "./components/pages/gadgets/RussSentencer";
+import Tools from "./components/pages/Tools";
+import RussSentencer from "./components/pages/tools/RussSentencer";
 
 import ArticlesList from "./components/pages/ArticlesList";
 import Article from "./components/pages/Article";
@@ -80,10 +80,10 @@ function App() {
               element={<Article category="my-research" />}
             />
 
-            {/* Gadgets  */}
-            <Route path="/gadgets" element={<Gadgets />} />
+            {/* Tools  */}
+            <Route path="/tools" element={<Tools />} />
             <Route
-              path="/gadgets/russian-example-vocab-sentence"
+              path="/tools/russian-example-vocab-sentence"
               element={<RussSentencer />}
             />
 
