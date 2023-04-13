@@ -70,6 +70,50 @@ function Home() {
 
             <div className="card shadow bg-dark mb-3">
               <div className="card-body ">
+                <h4 className="card-title text-primary">
+                  <Link to="/articles/russian/russian-pronunciation-IPA">
+                    ['spʲik 'raʂn vɨt'aʊt 'ɛksɛnt]
+                  </Link>
+                </h4>
+                <h5 className="card-subtitle mb-2 text-danger">
+                  Speak Russian without an Accent
+                </h5>
+                <p className="card-text text-success">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                  dicta vel incidunt numquam. Eius maiores odit eveniet
+                  consequuntur earum quo accusantium incidunt blanditiis tempore
+                  id. Debitis, hic quos! Iusto, voluptatum! Lorem ipsum dolor
+                  sit amet consectetur adipisicing elit. Ex architecto aut,
+                  repudiandae.
+                  <div>
+                    <audio
+                      controls
+                      className="mt-3"
+                      style={{
+                        width: "250px",
+                        height: "30px",
+                        border: "2px solid black",
+                        borderRadius: "15px",
+                      }}
+                      src={RussGreeting}
+                    >
+                      Source
+                      <Link to="https://en.wiktionary.org/wiki/File:Ru-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.ogg"></Link>
+                    </audio>
+                  </div>
+                </p>
+
+                <Link
+                  to="/articles/russian/russian-pronunciation-IPA"
+                  className="card-link"
+                >
+                  Read more...
+                </Link>
+              </div>
+            </div>
+
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-body ">
                 <h3 className="card-title">
                   <Link to="/articles/my-research/evolutionary-approach-to-sunburn">
                     Sunburn: A Civilization Disease
@@ -129,47 +173,14 @@ function Home() {
 
           {/* Right hand column */}
           <div className="col-lg-4">
-            {/* The Russian Article Card  */}
             <div className="card shadow bg-dark mb-3">
-              <div className="card-body ">
-                <h4 className="card-title text-primary">
-                  <Link to="/articles/russian/russian-pronunciation-IPA">
-                    ['spʲik 'raʂn vɨt'aʊt 'ɛksɛnt]
-                  </Link>
-                </h4>
-                <h5 className="card-subtitle mb-2 text-danger">
-                  Speak Russian without an Accent
-                </h5>
-                <p className="card-text text-success">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                  dicta vel incidunt numquam. Eius maiores odit eveniet
-                  consequuntur earum quo accusantium incidunt blanditiis tempore
-                  id. Debitis, hic quos! Iusto, voluptatum! Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit. Ex architecto aut,
-                  repudiandae.
-                  <audio
-                    controls
-                    className="mt-3"
-                    style={{
-                      width: "250px",
-                      height: "30px",
-                      border: "2px solid black",
-                      borderRadius: "15px",
-                    }}
-                    src={RussGreeting}
-                  >
-                    Source
-                    <Link to="https://en.wiktionary.org/wiki/File:Ru-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.ogg"></Link>
-                  </audio>
-                </p>
-
-                <Link
-                  to="/articles/russian/russian-pronunciation-IPA"
-                  className="card-link"
-                >
-                  Read more...
-                </Link>
-              </div>
+              <Link to="https://github.com/Noah3141">
+                <div className="card-link p-0 m-0">
+                  <h4 className="card-title text-center text-primary p-2 m-0">
+                    Coding Projects
+                  </h4>
+                </div>
+              </Link>
             </div>
 
             <div className="card shadow bg-dark mb-3">

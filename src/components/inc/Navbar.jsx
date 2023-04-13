@@ -73,42 +73,45 @@ function Navbar() {
               </Link>
               {/* This div is the unfold menu for Articles*/}
               <ul className="dropdown-menu bg-info border border-dark border-2 fs-5">
-                <li className="dropdown-item">
-                  <Link className="text-primary" to="/articles/my-research">
-                    My Research
-                  </Link>
-                </li>
-                <li className="dropdown-item">
-                  <Link
-                    className=" text-primary"
-                    to="/articles/literature-reviews"
-                  >
-                    Literature Reviews
-                  </Link>
-                </li>
-                <li className="dropdown-item">
-                  <Link
-                    className=" text-primary"
-                    to="/articles/psychotherapy-integration"
-                  >
-                    Psychotherapy Integration
-                  </Link>
-                </li>
-                <li className="dropdown-item">
-                  <Link className="text-primary" to="/articles/programming">
-                    Programming
-                  </Link>
-                </li>
-                <li className="dropdown-item">
-                  <Link className=" text-primary" to="/articles/russian">
-                    Russian Language
-                  </Link>
-                </li>
-                <li className="dropdown-item">
-                  <Link className=" text-primary" to="/articles/other-topics">
-                    Other Topics
-                  </Link>
-                </li>
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/my-research"
+                >
+                  My Research
+                </Link>
+
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/literature-reviews"
+                >
+                  Literature Reviews
+                </Link>
+
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/psychotherapy-integration"
+                >
+                  Psychotherapy Integration
+                </Link>
+
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/programming"
+                >
+                  Programming
+                </Link>
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/russian"
+                >
+                  Russian Language
+                </Link>
+                <Link
+                  className="dropdown-item text-primary"
+                  to="/articles/other-topics"
+                >
+                  Other Topics
+                </Link>
               </ul>
             </li>
 
