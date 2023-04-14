@@ -6,7 +6,7 @@ import CitedArticle from "../../../inc/CitedArticle";
 function KetosisPsychiatry() {
   return (
     <>
-      <div className="container bg-light shadow rounded px-5 text-dark rounded-2 mb-4 pb-4">
+      <div className="container bg-light shadow rounded px-5 text-dark rounded-3 mb-4 pb-4">
         <Background className="bg-warning-subtle" />
         <Title title="Ketogenic Diets as a Psychiatric Intervention" />
         <h3>A Meta Review</h3>
@@ -23,7 +23,7 @@ function KetosisPsychiatry() {
         </p>
       </div>
 
-      <div className="container bg-light shadow rounded text-dark px-5 rounded-2 pb-4">
+      <div className="container bg-light shadow rounded text-dark px-5 rounded-3 pb-4">
         <Title title="Research Reviews" />
         <CitedArticle
           authors="Tillery, E. E., Ellis, K. D., Threatt, T. B., Reyes, H. A., Plummer, C. S., & Barney, L. R. "

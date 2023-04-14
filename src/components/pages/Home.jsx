@@ -184,22 +184,13 @@ function Home() {
             </div>
 
             <div className="card shadow bg-dark mb-3">
-              <div className="card-header fs-5 text-danger">
-                Maps of Meaning
-              </div>
-              <div className="card-body bg-dark  rounded-bottom-1">
-                <blockquote className="blockquote mb-0 text-light ">
-                  <p className="fs-6">
-                    The capacity to create novel behaviors and categories of
-                    interpretation in response to the emergence of the unknown
-                    might be regarded as the primary hallmark of human
-                    consciousness—indeed, of human being.
-                  </p>
-                  <footer className="blockquote-footer">
-                    <cite title="Source Title">Jordan Peterson </cite>
-                  </footer>
-                </blockquote>
-              </div>
+              <Link to="/articles/my-research ">
+                <div className="card-link p-0 m-0">
+                  <h4 className="card-title text-center text-primary p-2 m-0">
+                    My Research
+                  </h4>
+                </div>
+              </Link>
             </div>
 
             <div className="card shadow bg-dark mb-3">
@@ -225,6 +216,25 @@ function Home() {
                 >
                   <button className="btn btn-primary py-1">Try it out</button>
                 </Link>
+              </div>
+            </div>
+
+            <div className="card shadow bg-dark mb-3">
+              <div className="card-header fs-5 text-danger">
+                Maps of Meaning
+              </div>
+              <div className="card-body bg-dark">
+                <blockquote className="blockquote mb-0 text-light ">
+                  <p className="fs-6">
+                    The capacity to create novel behaviors and categories of
+                    interpretation in response to the emergence of the unknown
+                    might be regarded as the primary hallmark of human
+                    consciousness—indeed, of human being.
+                  </p>
+                  <footer className="blockquote-footer">
+                    <cite title="Source Title">Jordan Peterson </cite>
+                  </footer>
+                </blockquote>
               </div>
             </div>
             <div className="card shadow bg-dark mb-3">
