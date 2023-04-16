@@ -54,7 +54,7 @@ function GoogleSheets() {
                   proportions, markup, on-menu versus off-menu inventory, and
                   inventory value. It tracks multiple locations, and can be used
                   to statistically calculate the most profitable menu options
-                  their pricing schedule.
+                  and their ideal pricing schedule.
                 </span>
               </div>
             </div>

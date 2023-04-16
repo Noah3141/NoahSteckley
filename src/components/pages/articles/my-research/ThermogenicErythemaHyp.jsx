@@ -83,6 +83,11 @@ function ThermogenicErythemaHyp() {
         UV radiation exposure, or because skin temperature is a necessary
         ingredient in the etiology of sunburn.
       </p>
+
+      <p>
+        Experiments were only conducted on cloudless days, to avoid any
+        interrupting involuntary shade. More on this later.
+      </p>
     </div>
   );
 }

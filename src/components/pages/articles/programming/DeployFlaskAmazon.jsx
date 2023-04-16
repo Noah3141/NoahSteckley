@@ -19,6 +19,10 @@ function DeployFlaskAmazon() {
         src={Roadmap}
         alt="Deployment Roadmap"
       />
+      <p>
+        Note that the gunicorn config file is where environment variables for
+        Python scripts can be placed.
+      </p>
     </div>
   );
 }
