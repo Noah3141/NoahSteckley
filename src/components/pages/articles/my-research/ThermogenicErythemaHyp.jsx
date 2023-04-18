@@ -1,4 +1,3 @@
-import Experiment_01 from "../../../images/Sunburn_Exp_01.png";
 import Background from "../../../inc/Background";
 
 function ThermogenicErythemaHyp() {
