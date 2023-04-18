@@ -60,7 +60,7 @@ function ThermogenicErythemaHyp() {
                 ></iframe>
             </div>
 
-            <h3 className="mt-5 mb-2">Experiment 2 (4/ /2023)</h3>
+            <h3 className="mt-5 mb-2">Experiment 2 (4/18/2023)</h3>
             <h4>Approaching a more robust data collection paradigm</h4>
             <p>
                 Based on observations in the previous experiment, UV index, ambient temperature,
