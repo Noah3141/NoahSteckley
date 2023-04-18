@@ -1,11 +1,86 @@
 import Background from "../../../inc/Background";
+import BurnTimeGraph from "../../../images/TimeToBurnGraph.png";
+import BurnTimeGraph2 from "../../../images/TimeToBurnGraph2.png";
+import { Link } from "react-router-dom";
 
 function ThermogenicErythemaHyp() {
     return (
-        <div className="container pb-4">
-            <Background className="bg-primary-subtle" />
-            <h3 className="mt-4 mb-2">Experiment 1 (4/11/2023)</h3>
-            <h4>Initial observations on data patterns and experimental procedures</h4>
+        <div className="container pb-4 text-light">
+            <Background className="bg-dark" />
+
+            <h3 className="text-danger">Preamble</h3>
+            <p>To start out, let me provide some background research.</p>
+            <div className=" mb-4">
+                <iframe
+                    width="100%"
+                    height="600"
+                    src="https://www.youtube.com/embed/B9SNfrE7P1s"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="border border-2 border-dark"
+                ></iframe>
+
+                <p>
+                    In this video, Dr. Heaney presents a beautiful example of concilliatory
+                    measurement: using multiple different types of measurement to triangulate a
+                    construct (if it looks like a duck, that's only one sensory mode, but if it also{" "}
+                    <i>sounds</i> like a duck, well...). We want to know the levels of vitamin D
+                    that were probably the norm for our evolutionary history, because other systems
+                    in our bodies are likely adaptively calibrated—axiomatically predicated—on those
+                    levels. This means when we are deficient in a way our ancestors rarely were, we
+                    predict that failsafes and low-cost compensations for this state are unlikely to
+                    exist. And <i>that</i> means if your levels are outside of evolutionary ranges,
+                    you may experience negative health conditions that are entirely caused by a
+                    deviation from evolutionary patterns or "hypernovelty." (See{" "}
+                    <i>A Hunter Gatherer's Guide to the 21st Century</i> in{" "}
+                    <Link target="_blank" to="/book-reviews">
+                        Book Reviews
+                    </Link>
+                    )
+                </p>
+                <p>
+                    Among these, curiously enough, might be sunburn or "ultraviolet-induced
+                    erythema." Skin tanning is clear to everyone, I believe: it's an evolutionary
+                    mechanism provided by your body, as a means to adapt to higher levels of sun,
+                    and keep you protected. That sentence alone makes recommendations to "limit sun
+                    exposure" by staying inside, covering up, and using sunscreen a bit...
+                    Contradictory.
+                </p>
+            </div>
+            <div className=" mb-4">
+                <iframe
+                    width="100%"
+                    height="600"
+                    src="https://www.youtube.com/embed/8LFkWiNP1wQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    className="border border-2 border-dark"
+                    allowfullscreen
+                ></iframe>
+                <p>
+                    This video touches on many topics, including a detailed refutation of worries
+                    about the possibility of vitamin D overdose.
+                </p>
+            </div>
+            <div className=" mb-4">
+                <iframe
+                    width="100%"
+                    height="600"
+                    className="border border-2 border-dark"
+                    src="https://www.youtube.com/embed/oAAlMYWtF_s"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
+            <h3 className="text-danger mt-4 mb-2">Experiment 1 (4/11/2023)</h3>
+            <h4 className="text-success">
+                Initial observations on data patterns and experimental procedures
+            </h4>
             <p>
                 A Google sheet was prepared with a hypothetically teneble set of data to collect at
                 various points of time. Sun exposure started at the zenith, and was applied to two
@@ -50,7 +125,6 @@ function ThermogenicErythemaHyp() {
                 Photos show no evidence of sunburn nor tanning in either zone during a total
                 exposure time for both of approximately 9 minutes.
             </p>
-
             <div>
                 <iframe
                     title="Experiment 1 Datatable"
@@ -59,9 +133,8 @@ function ThermogenicErythemaHyp() {
                     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1529021233&amp;single=true&amp;widget=true&amp;headers=false"
                 ></iframe>
             </div>
-
-            <h3 className="mt-5 mb-2">Experiment 2 (4/18/2023)</h3>
-            <h4>Approaching a more robust data collection paradigm</h4>
+            <h3 className=" text-danger mt-5 mb-2">Experiment 2 (4/18/2023)</h3>
+            <h4 className="text-success">Approaching a more robust data collection paradigm</h4>
             <p>
                 Based on observations in the previous experiment, UV index, ambient temperature,
                 ambient humidity were all collected in the 5 minutes preceding sun exposure.
@@ -101,7 +174,6 @@ function ThermogenicErythemaHyp() {
                     width="100%"
                     height="530"
                     seamless
-                    frameborder="0"
                     style={{ overflow: "scroll" }}
                     title="Skin Temperature Across Sun Exposure vs Shade"
                     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubchart?oid=993782227&amp;format=image"
@@ -121,18 +193,150 @@ function ThermogenicErythemaHyp() {
                     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1771881055&amp;single=true&amp;widget=true&amp;headers=false"
                 ></iframe>
             </div>
+            <p>
+                Next experiment needs to use laser thermometer to measure skin temperature, and
+                measure time more precisely.
+            </p>
+            <h4 className="text-success">A brief introduction to the conundrum</h4>
+            <p>
+                So, skin raises to 103°F during prolonged high UV sun exposure, and lowers back down
+                to 97°F when put back into the shade. That's curious, because of the following
+                chart:
+            </p>
+            <div className="row">
+                <div className="col-6 p-2">
+                    <img
+                        width="100%"
+                        height="auto"
+                        src={BurnTimeGraph}
+                        alt="Time until Burn Graph"
+                    />{" "}
+                    <span>
+                        <Link to="http://www.ncwhomeinspections.com/node/193">
+                            http://www.ncwhomeinspections.com/node/193
+                        </Link>{" "}
+                    </span>
+                </div>
+                <div className="col-6 p-2">
+                    <img
+                        width="100%"
+                        height="auto"
+                        src={BurnTimeGraph2}
+                        alt="Time until Burn Graph 2"
+                    />{" "}
+                </div>
+            </div>
+            <p>
+                Now, you can find many similar graphs online. First degree burns, however, show up a
+                good deal less commonly in them. But notice this: the graphs don't represent the
+                bottom threshold specifically. They fade out into arbitrarily large amounts of time.
+                Generally, these charts aren't <i>for</i> learning about first degree burns, so they
+                only touch lightly on the topic.
+            </p>
+            <p>
+                I'll also note that they all vary a bit, and it's not clear what they mean by "pain
+                threshold." The psychphysical threshold is obviously a gradient. I'll note, however,
+                that 103°F marks a minor threshold, where the sensation changes from 'toasty' to the
+                slight singe that makes hot showers enjoyable. This, however, suredly differs
+                between individuals at least a degree or two, and I have no data on these
+                differences. This entire discussion is limited to my psychophysical setpoints;
+                however, that does not detract from the universality of the patterns, only implies
+                that they are shifted across different individuals. Finally, while pain threshold is
+                relevant, it's important to stick to the fact that pretty much any individual is
+                able to refine their understanding of their sensation, and become adept at
+                recognizing 103°F (or whatever temperature). Experienced bakers may know that if you
+                put your finger in 100°F water a few times, you learn to tell what 100°F feels like,
+                and avoid killing your yeast.
+            </p>
+            <p>
+                So, the question is: What do these graphs look like at 100-105°F? If skin is
+                reaching 104°F during sun exposure, does that not mean it will develop a heat-based
+                first degree burn in somewhere over 30 minutes? It has long been assumed that
+                sunburn <i>is</i> a "radiation burn,"" and therefore must come along with the
+                concomitant radiation effects, but this data suggests that the sun exposure is
+                leading to a normal "heat burn."
+            </p>
+            <p>
+                The implications of this hypothesis are many. First, we'll list the testable
+                predictions of the hypothesis, then we'll lay out the downstream implications for
+                action and valuation.
+            </p>
+            <h4 className="text-danger">If sunburns are just heat burns, not radiation burns:</h4>
+            <h5 className="text-success"> Predictions</h5>
+            <ul>
+                <li>
+                    We should be able to induce a sunburn-like condition through the application of
+                    something other than sun, at 104°F for some amount of time longer than 30-60
+                    minutes. (Skin health recommendations often default to "30 minutes")
+                </li>
+                <li>
+                    Sunburn should not occur from sun exposure on skin that has not passed ~103°F in
+                    that amount of time.
+                </li>
+                <li>Artificially cooling the skin during sun exposure should prevent sunburn.</li>
+            </ul>
+            <h5 className="text-success"> Implications</h5>
+            <ul>
+                <li>
+                    <p>
+                        Let's look into the research supporting "DNA damage from the sun" and see
+                        what the evidence might say in light of this information. The prediction is
+                        that their data will demonstrate the effects of <i>burns</i> on an area of
+                        skin (which spends up a finite healing ability tied to telomere length).
+                        Their data will demonstrate that <i>lifetime</i> skin exposure to the sun
+                        has damaging effects (it is still radiation after all), but not show that
+                        acute, large amounts of sunburn cause anything special regarding radiation
+                        exposure.
+                    </p>
+                    <p>
+                        We would predict this because there is no such thing as "acute intense sun
+                        exposure." <i>Homo sapiens</i> is adapted to an enviornment with a sun.
+                        Exposure to that sun is the <i>baseline</i>; lifetime exposure to the sun is
+                        the standard. What is not standard is sudden, large increases in exposure to
+                        the sun, wherein skin has not had the time to adjust its tanness. At this
+                        point we would predict <i>either</i>: (1) Untanned skin lacks radiation
+                        protection, and thus burns, or (2) untanned skin lacks something than causes
+                        it to get hotter in the sun, leading to the possibility of first degree heat
+                        burns.
+                    </p>
+                    <p>
+                        Now, there are many factors hidden in this presentation. The radiation
+                        thread of effects can co-exist with a separate thread of heat effects, and
+                        their correlation may be complex, having tight correspondance in some areas,
+                        while falling completely out of sync in others. A mechanistic picture of
+                        both is necessary to sort out that dynamic.
+                    </p>
+                </li>
+            </ul>
 
-            <h2>Background</h2>
+            <h3>Angle to Sun Diagram</h3>
+            <h2 className="mt-4">Background</h2>
             <p>
                 This design is intended to show that the model of temperature tracking is sufficient
                 to prevent sunburn (although it may be more strict than what is necessary). This may
                 be because skin temperature is a proxy for UV radiation exposure, or because skin
                 temperature is a necessary ingredient in the etiology of sunburn.
             </p>
-
             <p>
                 Experiments were only conducted on cloudless days, to avoid any interrupting
                 involuntary shade. More on this later.
+            </p>
+            <p>
+                If sunburns are just heat burns, if DNA damage and otherwise is not the product of
+                radiation exposure from the sun but rather heat burns, and tan skin doesn't get as
+                hot, that implies that the recommendations to stay out of the sun because it is an
+                evil death ray are causing harm in more ways than vitamin D deficiency. It means
+                that the primary recommendation is the opposite, to get as much sun as you can, as
+                frequently as possible (which resolves the vitamin D deficiency problem caused by
+                the alternative interpretation), so that your skin stays up-to-date in shade,
+                preventing you from ever getting the damaging burns that can cause so many health
+                problems. And wouldn't this, that you <i>should</i> be in the sun (like your
+                ancestors constantly doing and were adapting to), make much more sense with
+                evolutionary theory?
+            </p>
+            <p>
+                That's less skin cancer, less vitamin D deficiency, and more theoretical integrity.
+                That sounds like a good deal to me.
             </p>
         </div>
     );
