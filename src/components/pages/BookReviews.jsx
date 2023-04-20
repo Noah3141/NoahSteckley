@@ -9,7 +9,17 @@ function BookReviews() {
             <Background className="bg-success" />
             <div className="container pb-4">
                 <Title title="Book Reviews" />
-                <h4 className="my-4">Clinical Psychology</h4>
+                <span type="hidden" id="Psych"></span>
+                <div
+                    className="card shadow-lg border border-primary border-2 bg-dark p-2 fs-5"
+                    style={{ maxWidth: "200px" }}
+                >
+                    <a href="#Psych">Psychology</a>
+                    <a href="#Metabolism">Metabolism</a>
+                    <a href="#Classics">Classics</a>
+                    <a href="#History & Atrocity">History & Atrocity</a>
+                </div>
+                <h4 className="my-4">Psychology</h4>
                 <BookReviewCard
                     title="The discovery of the unconscious: The history and evolution of dynamic psychiatry"
                     alt_title="The Discovery of the Unconscious: The History and Evolution of Dynamic Psychiatry"
@@ -142,7 +152,7 @@ function BookReviews() {
                     year="1980"
                     review=""
                 />
-
+                <span type="hidden" id="Metabolism"></span>
                 <BookReviewCard
                     title="12 rules for life: An antidote to chaos"
                     alt_title="12 Rules for Life: An Antidote to Chaos"
@@ -151,7 +161,19 @@ function BookReviews() {
                     review=""
                 />
 
-                <h4 className="my-4">Classics</h4>
+                <h4 className="my-4">Metabolism</h4>
+                <span type="hidden" id="Classics"></span>
+                <BookReviewCard
+                    title="The Salt Fix: Why the Experts Got It All Wrong—and How Eating More Might Save Your Life"
+                    alt_title="The Salt Fix: Why the Experts Got It All Wrong—and How Eating More Might Save Your Life"
+                    author="DiNicolantonio, J. "
+                    year="2020"
+                    review="Dr. DiNicolantonio, like some of the other authors in this list, has appeared on podcasts and demonstrated his knowledge in conversation. There, his formidability on the topic is apparent. While the book's argument structure leaves elegance to be a bit desired, it does a practical job of demonstrating a very large amount of research. The book spans the necessary topics to grasp the full picture, and even provides practical prescriptions for taking advantage of the implications of his conclusions, such as taking doses of 1/2 teaspoon of salt before a workout, or even, on a hotter day, a full teaspoon. While I don't find his presentation of the arguments wildly convincing, I do believe the core elements and the arguments themselves are the reigning hypotheses by a large margin, and as such, have been following his recommendations for years. Information from outside his book further supports his prescriptions. While the ultimate model of hydration, salt, and water is not pristinely clear from this presentation, he does outline a better model than the `salt dehydrates you, water hydrates you` model that many people are running, a model which is at least in some contexts recognized to be not only false, but dangerous, such as in extreme heat, where chugging pure freshwater is not enough. It's evident from the current spread of medical opinion that the majority of people, even in professional positions, are essentially making up their model based on poor or no information, and coming to conclusions that are face-invalid when cross referenced with other theoretical contexts (e.g. evolutionary theory). For instance, health recommendations do not mention electrolytes much more than those in sports drinks (which have, across the board, with the exception of LiquidIV style packets, less than a tenth of a substantive amount of electrolytes in them), while the treatment for severe dehydration involves the use of IV fluids, composed of a saline solution: water and bona fide sodium chloride—salt. DiNicolantonio, however, brings this context into scope, and provides an important evolutionary history that solidifies high salt intake as the current primary hypothesis for optimal health and functioning."
+                />
+
+                <h4 id="Classics" className="my-4">
+                    Classics
+                </h4>
                 <BookReviewCard
                     title="Faust I & II (Vol. 2)"
                     alt_title="Faust"
@@ -183,6 +205,7 @@ function BookReviews() {
                     year=""
                     review=""
                 />
+                <span type="hidden" id="History & Atrocity"></span>
                 <BookReviewCard
                     title="Пикник на обочине"
                     alt_title="Пикник на обочине"
@@ -191,7 +214,9 @@ function BookReviews() {
                     review=""
                 />
 
-                <h4 className="my-4">History & Atrocity</h4>
+                <h4 id="History & Atrocity" className="my-4">
+                    History & Atrocity
+                </h4>
                 <BookReviewCard
                     title="Ordinary men: Reserve police battalion 101 and the final solution in Poland"
                     alt_title="Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland"
