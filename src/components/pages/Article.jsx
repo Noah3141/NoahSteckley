@@ -24,66 +24,69 @@ import RustProgrammingLang from "./articles/programming/RustProgrammingLang";
 
 // Russian
 import RussPronunciation from "./articles/russian/RussPronunciation";
+import RecommendedSites from "./articles/programming/RecommendedSites";
 
 // Other Topics
 
 function Article(props) {
-  let id = useParams().id;
+    let id = useParams().id;
 
-  switch (
-    id // Provides the connection between URL and which article to render //
-  ) {
-    // Literature Reviews
-    case "ketogenic-diet": // URL :id
-      return <KetogenicDiet />; // Corresponding function's name
-    case "ADHD-validity": // URL :id
-      return <LiteratureADHD />; // Corresponding function's name
-    case "ketosis-psychiatry": // URL :id
-      return <KetosisPsychiatry />; // Corresponding function's name
-    case "metabolism-biopsychosocial": // URL :id
-      return <MetabolismBiopsychosocial />; // Corresponding function's name
-    case "salt-and-health": // URL :id
-      return <SaltAndHealth />; // Corresponding function's name
-    case "sunburn": // URL :id
-      return <Sunburn />; // Corresponding function's name
+    switch (
+        id // Provides the connection between URL and which article to render //
+    ) {
+        // Literature Reviews
+        case "ketogenic-diet": // URL :id
+            return <KetogenicDiet />; // Corresponding function's name
+        case "ADHD-validity": // URL :id
+            return <LiteratureADHD />; // Corresponding function's name
+        case "ketosis-psychiatry": // URL :id
+            return <KetosisPsychiatry />; // Corresponding function's name
+        case "metabolism-biopsychosocial": // URL :id
+            return <MetabolismBiopsychosocial />; // Corresponding function's name
+        case "salt-and-health": // URL :id
+            return <SaltAndHealth />; // Corresponding function's name
+        case "sunburn": // URL :id
+            return <Sunburn />; // Corresponding function's name
 
-    // My Research
-    case "alcohol-consumption":
-      return <AlcoholConsumption />;
-    case "carbohydrate-intake":
-      return <CarbohydrateIntake />;
-    case "evolutionary-approach-to-sunburn":
-      return <ThermogenicErythemaHyp />;
-    case "literature-review-methods":
-      return <LiteratureReviewMethod />;
+        // My Research
+        case "alcohol-consumption":
+            return <AlcoholConsumption />;
+        case "carbohydrate-intake":
+            return <CarbohydrateIntake />;
+        case "evolutionary-approach-to-sunburn":
+            return <ThermogenicErythemaHyp />;
+        case "literature-review-methods":
+            return <LiteratureReviewMethod />;
 
-    // Psychotherapy Integration
-    case "gospel-as-theory":
-      return <GospelTheory />;
-    case "unconscious-full-of-rewards":
-      return <UnconsciousRewards />;
-    case "kingdom-of-heaven-construct":
-      return <KingdomOfHeaven />;
+        // Psychotherapy Integration
+        case "gospel-as-theory":
+            return <GospelTheory />;
+        case "unconscious-full-of-rewards":
+            return <UnconsciousRewards />;
+        case "kingdom-of-heaven-construct":
+            return <KingdomOfHeaven />;
 
-    // Programming
-    case "deploying-flask-to-amazon":
-      return <DeployFlaskAmazon />;
-    case "rust-programming-language":
-      return <RustProgrammingLang />;
+        // Programming
+        case "deploying-flask-to-amazon":
+            return <DeployFlaskAmazon />;
+        case "rust-programming-language":
+            return <RustProgrammingLang />;
+        case "recommended-sites":
+            return <RecommendedSites />;
 
-    // Russian
-    case "russian-pronunciation-IPA":
-      return <RussPronunciation />;
-    // Other Topics
+        // Russian
+        case "russian-pronunciation-IPA":
+            return <RussPronunciation />;
+        // Other Topics
 
-    // If no article component is found, "redirect" to the article list page
-    default:
-      return <ArticlesList />;
-  }
+        // If no article component is found, "redirect" to the article list page
+        default:
+            return <ArticlesList />;
+    }
 }
 
 Article.propTypes = {
-  id: PropTypes.string,
+    id: PropTypes.string,
 };
 
 export default Article;

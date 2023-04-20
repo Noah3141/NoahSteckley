@@ -40,6 +40,16 @@ function ProgrammingArts() {
                     </p>
                 </div>
             </div>
+            <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
+                <div className="card-body ">
+                    <h4>
+                        <Link className="link-primary" to="/articles/programming/recommended-sites">
+                            Recommended Online Tools
+                        </Link>
+                    </h4>
+                    <p>Graphic design, mind maps, favicon generation, oh my!</p>
+                </div>
+            </div>
         </div>
     );
 }

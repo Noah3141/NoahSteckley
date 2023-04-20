@@ -6,6 +6,7 @@ import Background from "../inc/Background";
 import { Link } from "react-router-dom";
 import Dataflow from "../images/Data_Flow.png";
 import RussGreeting from "../sounds/Ru-здравствуйте.ogg";
+import leavingSite from "../images/LeavingSiteIcon.png";
 
 function Home() {
     const sendEmail = (e) => {
@@ -144,7 +145,18 @@ function Home() {
                                     Rust Web Server Framework Sheet
                                 </h3>
                                 <h5 className="card-subtitle mb-2 text-danger">
-                                    Tide, Actix, Rocket, Axum
+                                    <Link
+                                        className="link-warning"
+                                        to="https://www.arewewebyet.org/"
+                                    >
+                                        The State of Web Development in Rust{" "}
+                                    </Link>
+                                    <img
+                                        width="16px"
+                                        height="16px"
+                                        src={leavingSite}
+                                        alt="Leaving Site Icon"
+                                    />
                                 </h5>
                                 <div>
                                     <iframe
