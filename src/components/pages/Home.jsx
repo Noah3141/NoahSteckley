@@ -30,15 +30,46 @@ function Home() {
         <>
             <Background className="bg-info" />
             <div className="container pb-4">
-                <Title title="Home" className="text-light" />
+                <Title
+                    title="Ridiculously Effective"
+                    className="text-primary fw-bolder text-center"
+                />
                 <div className="row my-4">
                     {/* 
 
                                 @ Left hand column @ 
 
                     */}
-
                     <div className=" col-lg-8">
+                        <div className="card p-4 bg-dark shadow mb-3">
+                            <div
+                                style={{
+                                    position: "relative",
+                                    width: "100%",
+                                    height: "0",
+                                    paddingBottom: "56.25%",
+                                }}
+                                className="bg-dark card-body border border-danger border-2"
+                            >
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    style={{
+                                        position: "absolute",
+                                        top: "0",
+                                        left: "0",
+                                        width: "100%",
+                                        height: "100%",
+                                    }}
+                                    src="https://www.youtube.com/embed/MWRw6tQKzsE"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
+
                         <div className="card shadow bg-dark mb-3">
                             <div className="card-body ">
                                 <h3 className="card-title">

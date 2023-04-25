@@ -25,6 +25,7 @@ import RustProgrammingLang from "./articles/programming/RustProgrammingLang";
 // Russian
 import RussPronunciation from "./articles/russian/RussPronunciation";
 import RecommendedSites from "./articles/programming/RecommendedSites";
+import Presentness from "./articles/psychotherapy-integration/Presentness";
 
 // Other Topics
 
@@ -65,6 +66,8 @@ function Article(props) {
             return <UnconsciousRewards />;
         case "kingdom-of-heaven-construct":
             return <KingdomOfHeaven />;
+        case "presentness":
+            return <Presentness />;
 
         // Programming
         case "deploying-flask-to-amazon":
