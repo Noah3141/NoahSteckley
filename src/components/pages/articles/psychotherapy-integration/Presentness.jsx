@@ -3,7 +3,7 @@ import Background from "../../../inc/Background";
 function Presentness() {
     return (
         <div className="container pb-4 text-light">
-            <div className="container px-5">
+            <div className="container" style={{ paddingLeft: "20%", paddingRight: "20%" }}>
                 <Background className="bg-dark" />
                 <h3>What Does Being "Present" Really Even Mean?</h3>
                 <p>
