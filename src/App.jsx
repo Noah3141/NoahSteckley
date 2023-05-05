@@ -26,81 +26,75 @@ import RussianArts from "./components/pages/RussianArts";
 import ProgrammingArts from "./components/pages/ProgrammingArts";
 
 function App() {
-  return (
-    <>
-      <Router>
-        <Navbar />
-        <div style={{ paddingTop: "75px", height: "100%" }}>
-          <Crumbtrail />
+    return (
+        <>
+            <Router>
+                <Navbar />
+                <div style={{ paddingTop: "75px", height: "100%" }}>
+                    <Crumbtrail />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
 
-            {/* Now Lists of Articles URLs  */}
-            <Route path="/articles" element={<ArticlesList />} />
-            <Route
-              path="/articles/literature-reviews/"
-              element={<LitReviews />}
-            />
-            <Route
-              path="/articles/psychotherapy-integration/"
-              element={<PsychIntegration />}
-            />
-            <Route path="/articles/my-research/" element={<MyResearch />} />
-            <Route
-              path="/articles/programming/"
-              element={<ProgrammingArts />}
-            />
-            <Route path="/articles/russian/" element={<RussianArts />} />
-            <Route path="/articles/other-topics/" element={<OtherArts />} />
+                        {/* Now Lists of Articles URLs  */}
+                        <Route path="/articles" element={<ArticlesList />} />
+                        <Route path="/articles/literature-reviews/" element={<LitReviews />} />
+                        <Route
+                            path="/articles/psychotherapy-integration/"
+                            element={<PsychIntegration />}
+                        />
+                        <Route path="/articles/my-research/" element={<MyResearch />} />
+                        <Route path="/articles/programming/" element={<ProgrammingArts />} />
+                        <Route path="/articles/russian/" element={<RussianArts />} />
+                        <Route path="/articles/other-topics/" element={<OtherArts />} />
 
-            {/* Now the single article specific URLs  */}
-            <Route
-              path="/articles/literature-reviews/:id"
-              element={<Article category="literature-reviews" />}
-            />
-            <Route
-              path="/articles/psychotherapy-integration/:id"
-              element={<Article category="psychotherapy-integration" />}
-            />
-            <Route
-              path="/articles/my-research/:id"
-              element={<Article category="my-research" />}
-            />
-            <Route
-              path="/articles/russian/:id"
-              element={<Article category="my-research" />}
-            />
-            <Route
-              path="/articles/programming/:id"
-              element={<Article category="my-research" />}
-            />
-            <Route
-              path="/articles/other-topics/:id"
-              element={<Article category="my-research" />}
-            />
+                        {/* Now the single article specific URLs  */}
+                        <Route
+                            path="/articles/literature-reviews/:id"
+                            element={<Article category="literature-reviews" />}
+                        />
+                        <Route
+                            path="/articles/psychotherapy-integration/:id"
+                            element={<Article category="psychotherapy-integration" />}
+                        />
+                        <Route
+                            path="/articles/my-research/:id"
+                            element={<Article category="my-research" />}
+                        />
+                        <Route
+                            path="/articles/russian/:id"
+                            element={<Article category="russian" />}
+                        />
+                        <Route
+                            path="/articles/programming/:id"
+                            element={<Article category="programming" />}
+                        />
+                        <Route
+                            path="/articles/other-topics/:id"
+                            element={<Article category="other-topics" />}
+                        />
 
-            {/* Tools  */}
-            <Route path="/tools" element={<Tools />} />
-            <Route
-              path="/tools/russian-example-vocab-sentence"
-              element={<RussSentencer />}
-            />
+                        {/* Tools  */}
+                        <Route path="/tools" element={<Tools />} />
+                        <Route
+                            path="/tools/russian-example-vocab-sentence"
+                            element={<RussSentencer />}
+                        />
 
-            {/* Other pages  */}
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
+                        {/* Other pages  */}
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/about" element={<About />} />
 
-            <Route path="/graphics" element={<Graphics />} />
-            <Route path="/sheets" element={<GoogleSheets />} />
-            <Route path="/websites" element={<Websites />} />
+                        <Route path="/graphics" element={<Graphics />} />
+                        <Route path="/sheets" element={<GoogleSheets />} />
+                        <Route path="/websites" element={<Websites />} />
 
-            <Route path="/book-reviews" element={<BookReviews />} />
-          </Routes>
-        </div>
-      </Router>
-    </>
-  );
+                        <Route path="/book-reviews" element={<BookReviews />} />
+                    </Routes>
+                </div>
+            </Router>
+        </>
+    );
 }
 
 export default App;
