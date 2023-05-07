@@ -41,7 +41,7 @@ function Home() {
 
                     */}
                     <div className=" col-lg-8">
-                        <div className="card p-4 bg-dark shadow mb-3">
+                        {/* <div className="card p-4 bg-dark shadow mb-3">
                             <div
                                 style={{
                                     position: "relative",
@@ -68,7 +68,7 @@ function Home() {
                                     allowfullscreen
                                 ></iframe>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="card shadow bg-dark mb-3">
                             <div className="card-body ">
