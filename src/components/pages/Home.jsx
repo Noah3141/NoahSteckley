@@ -109,12 +109,18 @@ function Home() {
                                     Speak Russian without an Accent
                                 </h5>
                                 <p className="card-text text-success">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                                    dicta vel incidunt numquam. Eius maiores odit eveniet
-                                    consequuntur earum quo accusantium incidunt blanditiis tempore
-                                    id. Debitis, hic quos! Iusto, voluptatum! Lorem ipsum dolor sit
-                                    amet consectetur adipisicing elit. Ex architecto aut,
-                                    repudiandae.
+                                    Psychologists remind us that the time when our brains have the
+                                    most neurons is infancy, not adulthood. Indeed, linguists have
+                                    settled on the idea that first-language acquisition is a process
+                                    not of learning distinctions, but of learning to ignore them!
+                                    Babies, they point out, babble across the whole spectrum of
+                                    human sounds, until that babbling starts to narrow down into the
+                                    sounds of target language. In order to best learn how to
+                                    pronounce words in a foreign language, we have to{" "}
+                                    <i>remember</i> the sound distinctions we had, but lost, the
+                                    ability to hear. One of the best ways to do that is to study
+                                    your own language a bit first, with the International Phonetic
+                                    Alphabet — the gold standard for learning pronunciation.
                                     <div>
                                         <audio
                                             controls
