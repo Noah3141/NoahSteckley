@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 
 function ThermogenicErythemaHyp() {
     return (
-        <div className="container pb-4 text-light">
+        <div
+            style={{ paddingLeft: "15rem", paddingRight: "15rem" }}
+            className="container pb-4 text-light"
+        >
             <Background className="bg-dark" />
 
             <h3 className="text-danger">Preamble</h3>

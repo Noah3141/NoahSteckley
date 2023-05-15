@@ -115,7 +115,7 @@ function Home() {
                                     not of learning distinctions, but of learning to ignore them!
                                     Babies, they point out, babble across the whole spectrum of
                                     human sounds, until that babbling starts to narrow down into the
-                                    sounds of target language. In order to best learn how to
+                                    sounds of the target language. In order to best learn how to
                                     pronounce words in a foreign language, we have to{" "}
                                     <i>remember</i> the sound distinctions we had, but lost, the
                                     ability to hear. One of the best ways to do that is to study

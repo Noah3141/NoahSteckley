@@ -27,7 +27,7 @@ function RussPronunciation() {
                             sound in that sentence!
                         </p>
                         <p>
-                            Now, with some sounds in some languages, it can be enough to simple
+                            Now, with some sounds in some languages, it can be enough to simply
                             point out: Did you know you're making a Spanish tapped <i>r</i> sound
                             all the time? Simply think of your English "tt" in "butter" whenever you
                             see the Spanish <i>r</i>! This technique is pretty effective, and really
@@ -45,7 +45,7 @@ function RussPronunciation() {
                             language's is easily enough to give you away.
                         </p>
                         <p>
-                            So, if we're going to learn the <i>real</i> and specific soudns that
+                            So, if we're going to learn the <i>real</i> and specific sounds that
                             Russian is made up of, we'll also need to put a finger on many English
                             sounds—a conscious, practiced, confident finger. This allows us to
                             address ourselves to the Russian sound with a much greater degree of
