@@ -30,10 +30,7 @@ function Home() {
         <>
             <Background className="bg-info" />
             <div className="container pb-4">
-                <Title
-                    title="Ridiculously Effective"
-                    className="text-primary fw-bolder text-center"
-                />
+                <Title title="Noah Steckley" className="text-primary fw-bolder text-center" />
                 <div className="row my-4">
                     {/* 
 
