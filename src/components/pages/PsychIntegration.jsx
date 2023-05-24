@@ -5,25 +5,6 @@ function LitReviews() {
     return (
         <div className="container">
             <Title title="Essays on Psychotherapy Integration" />
-            <div className="mt-4 shadow alert alert-warning border border-dark border-2">
-                <div className="card-body ">
-                    <h4>
-                        <Link
-                            className="link-warning"
-                            to="/articles/psychotherapy-integration/gospel-as-theory"
-                        >
-                            Psychodynamic Effects of <i>The Sermon on the Mount</i> as an Ethical
-                            Schema
-                        </Link>
-                    </h4>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, qui
-                        reiciendis, temporibus repudiandae maxime quae nisi ex necessitatibus
-                        possimus, autem nulla laborum ipsam voluptatum quas sit dolores veniam
-                        aperiam.
-                    </p>
-                </div>
-            </div>
             <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
                 <div className="card-body">
                     <h4>
@@ -43,7 +24,7 @@ function LitReviews() {
                 <div className="card-body">
                     <h4>
                         <Link to="/articles/psychotherapy-integration/unconscious-full-of-rewards">
-                            The Unconscious is Full of Reward-Associations (Depth Psychology from a
+                            The Unconscious is Full of Reward-Fulfillments (Depth Psychology from a
                             Behaviorist point of view)
                         </Link>
                     </h4>
@@ -63,12 +44,7 @@ function LitReviews() {
                             Health"
                         </Link>
                     </h4>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel tenetur
-                        assumenda, tempora voluptas repellat aut. Hic possimus assumenda harum
-                        necessitatibus. Doloribus maxime iste inventore facere asperiores, modi
-                        officia! Vero, incidunt.
-                    </p>
+                    <p>Not yet written...</p>
                 </div>
             </div>
         </div>

@@ -293,14 +293,14 @@ function ThermogenicErythemaHyp() {
                     </p>
                     <p>
                         We would predict this because there is no such thing as "acute intense sun
-                        exposure." <i>Homo sapiens</i> is adapted to an enviornment with a sun.
+                        exposure." <i>Homo sapiens</i> is adapted to an environment with a sun.
                         Exposure to that sun is the <i>baseline</i>; lifetime exposure to the sun is
                         the standard. What is not standard is sudden, large increases in exposure to
-                        the sun, wherein skin has not had the time to adjust its tanness. At this
-                        point we would predict <i>either</i>: (1) Untanned skin lacks radiation
-                        protection, and thus burns, or (2) untanned skin lacks something than causes
-                        it to get hotter in the sun, leading to the possibility of first degree heat
-                        burns.
+                        the sun, wherein skin has not had the time to adjust its tanness. That's not
+                        intense sun exposure, it's intense unpreparedness! At this point we would
+                        predict <i>either</i>: (1) Untanned skin lacks radiation protection, and
+                        thus burns, or (2) untanned skin lacks something than causes it to get
+                        hotter in the sun, leading to the possibility of first degree heat burns.
                     </p>
                     <p>
                         Now, there are many factors hidden in this presentation. The radiation

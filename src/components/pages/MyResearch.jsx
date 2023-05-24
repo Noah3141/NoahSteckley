@@ -35,7 +35,13 @@ function MyResearch() {
                             Alcohol Consumption Rates at Large Events
                         </Link>
                     </h4>
-                    <p>The statistics on drinking behaviors at events</p>
+                    <p>
+                        The statistics on drinking behaviors at events, collected by me as bar
+                        manager at a catering company. Data comes from discrete public events.
+                        Future versions of data are in the works, which control for party-length (a
+                        critique of the first generation of statistics). No write up has been made
+                        yet, only graphs provided.
+                    </p>
                 </div>
             </div>
             <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
@@ -46,10 +52,9 @@ function MyResearch() {
                         </Link>
                     </h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus,
-                        doloremque repellendus facilis magni aut corrupti dolorum sit error minima
-                        natus sequi mollitia optio suscipit voluptates similique doloribus autem
-                        eligendi quasi.
+                        Here I provide a graph of data collected myself, on myself, through a series
+                        of metabolic experiments. No write up has been made yet, only graphs
+                        provided.
                     </p>
                 </div>
             </div>
