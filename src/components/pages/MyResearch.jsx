@@ -5,19 +5,7 @@ function MyResearch() {
     return (
         <div className="container">
             <Title title="My Research" />
-            <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
-                <div className="card-body">
-                    <h4>
-                        <Link to="/articles/my-research/literature-review-methods">
-                            Literature Review Methodology
-                        </Link>
-                    </h4>
-                    <p>
-                        How can a complex topic be effectively and scientifically researched,
-                        analyzed, and summarized?
-                    </p>
-                </div>
-            </div>
+
             <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
                 <div className="card-body">
                     <h4>
@@ -55,6 +43,19 @@ function MyResearch() {
                         Here I provide a graph of data collected myself, on myself, through a series
                         of metabolic experiments. No write up has been made yet, only graphs
                         provided.
+                    </p>
+                </div>
+            </div>
+            <div className="card mt-4 shadow bg-info text-light border border-dark border-2">
+                <div className="card-body">
+                    <h4>
+                        <Link to="/articles/my-research/literature-review-methods">
+                            Literature Review Methodology
+                        </Link>
+                    </h4>
+                    <p>
+                        How can a complex topic be effectively and scientifically researched,
+                        analyzed, and summarized?
                     </p>
                 </div>
             </div>

@@ -3,7 +3,19 @@ import React from "react";
 function UnconsciousRewards() {
     return (
         <>
-            <div className="container">
+            <div className="container fs-5" style={{ paddingLeft: "20%", paddingRight: "20%" }}>
+                <p>
+                    The following was written in my undergrad, in a class forum. It has been ripped
+                    word for word, and may lack context in its current form. One of its sections was
+                    in response to the prevalent notion, taught to me outright without proper
+                    hedging, that "punishment is ineffective for teaching," followed by the blithe
+                    assumption that punishment is somehow closely related to trauma in children.
+                    This struck me as painfully imprecise. Below, first I attempt to make some
+                    connections between the raw behavioral paradigm and the psychoanalytic
+                    conceptions that hypothetically grasp at the same territory. I then offer a
+                    cursory application of such an angle to the particular practical issue of
+                    punishment with children...
+                </p>
                 <p>
                     Writing is not a purely rational process: it is guided by emotion, and the
                     knowledge of the writer is limited. By following the path of interest, areas
@@ -124,10 +136,11 @@ function UnconsciousRewards() {
                     system: if something pops into your head involuntarily, such as a flashback or
                     anxious intrusive thought, it is because what you are and what you know lacks
                     what's hidden in the unconsciously manifesting content (e.g. a plan to avoid the
-                    danger). One can see how a child would have an even harder time encountering and
-                    understanding (adjusting personality to) a powerful and frightening stimulus. We
-                    do not quite know what it would mean to practice not thinking about
-                    something—although we believe practice makes perfect.
+                    danger, a perspective to understand and delimit it). One can see how a child
+                    would have an even harder time encountering and understanding (adjusting
+                    personality to) a powerful and frightening stimulus. We do not quite know what
+                    it would mean to practice not thinking about something—although we believe
+                    practice makes perfect.
                 </p>
                 <p>
                     Stimuli may have many different implications for many disparate sets of
@@ -151,7 +164,7 @@ function UnconsciousRewards() {
                     person can commit themselves on faith to the paradox that “Although it was novel
                     experience which so broke me, it is novel experience which will also cure me.”
                     This is, as far as I’m concerned, as much a Jungian statement as it is one
-                    summarized behaviorist exposure therapy.
+                    summarized by behaviorist exposure therapy.
                 </p>
                 <p>
                     Finally, on the application of behaviorist principles to the topic of
@@ -217,29 +230,29 @@ function UnconsciousRewards() {
                     simply mustn’t ever speak at the dinner table.” This child may grow up to
                     either: 1) treat their child the same (unreflectingly holding steady the
                     valuation given to them), or 2) allow their children to run rampant at the
-                    dinner table, because of inarticulate (“unconscious”) fear that they will do to
-                    their children what their parents did to them; willful negligence, colored by
-                    uncomfort, in clarifying an alternative; or spiteful revenge against their
-                    parent (present in the flesh or not) by turning their children into the opposite
-                    of what they had been raised to be. In each case, a dishonestly ignored emotion
-                    marks the problem (a Freudian note). By looking into the emotion, the question
-                    “How should one act at the dinner table?” must be generated, and confronted, and
-                    explored, a process which will bring up their parental interactions. These
-                    reactions may be categorized, respectively, as tyrannically holding on to an
-                    interpretation (inherited, or counterreacted), despite its effects, and
-                    nihilistically abstaining from any clear interpretation of proper behavior
-                    whatsoever. The solution to both is the honest exploration of moral behavior as
-                    a result of refusing to repress one’s own emotional reactions. Honesty,
-                    integrity, and attention.
+                    dinner table, because of unconscious (“inarticulate and unaddressed”) fear that
+                    they will do to their children what their parents did to them; willful
+                    negligence, colored by uncomfort, in clarifying an alternative; or spiteful
+                    revenge against their parent (present in the flesh or not) by turning their
+                    children into the opposite of what they had been raised to be. In each case, a
+                    dishonestly ignored emotion marks the problem (a Freudian note). By looking into
+                    the emotion, the question “How should one act at the dinner table?” must be
+                    generated, and confronted, and explored, a process which will bring up their
+                    parental interactions. These reactions may be categorized, respectively, as
+                    tyrannically holding on to an interpretation (inherited, or counterreacted),
+                    despite its effects, and nihilistically abstaining from any clear interpretation
+                    of proper behavior whatsoever. The solution to both is the honest exploration of
+                    moral behavior as a result of refusing to repress one’s own emotional reactions.
+                    Honesty, integrity, and attention.
                 </p>
                 <p>
                     It is not intense punishment that produces maladaptivity in children: it is the
                     unconsciousness of the parent—unconsidered rules which do not match the world,
                     do not match society, or are not applied consistently enough so as to allow the
                     child to develop a clear interpretation of what behavior must be extinguished.
-                    All of this is solved by speaking: speak to your partner, speak to the child,
-                    speak to your peers, reach an integrated consensus. Know what is good, know what
-                    is bad.
+                    All of this is solved by speaking and listening: speak to your partner, speak to
+                    the child, speak to your peers, reach an integrated consensus. Know what is
+                    good, know what is bad.
                 </p>
                 <p>
                     The rules applied upon a child must be adapted to—give space to—the reality of

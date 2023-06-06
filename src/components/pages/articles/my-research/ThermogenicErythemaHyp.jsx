@@ -7,13 +7,12 @@ function ThermogenicErythemaHyp() {
     return (
         <div
             style={{ paddingLeft: "15rem", paddingRight: "15rem" }}
-            className="container pb-4 text-light"
-        >
+            className="container pb-4 text-light fs-5">
             <Background className="bg-dark" />
 
             <h3 className="text-danger">Preamble</h3>
             <p>To start out, let me provide some background research.</p>
-            <div className=" mb-4">
+            <div className="mb-4">
                 <iframe
                     width="100%"
                     height="600"
@@ -21,8 +20,7 @@ function ThermogenicErythemaHyp() {
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                    className="border border-2 border-dark"
-                ></iframe>
+                    className="border border-2 border-dark bg-info"></iframe>
 
                 <p>
                     In this video, Dr. Heaney presents a beautiful example of concilliatory
@@ -59,9 +57,8 @@ function ThermogenicErythemaHyp() {
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    className="border border-2 border-dark"
-                    allowfullscreen
-                ></iframe>
+                    className="border border-2 border-dark bg-info"
+                    allowfullscreen></iframe>
                 <p>
                     This video touches on many topics, including a detailed refutation of worries
                     about the possibility of vitamin D overdose.
@@ -71,13 +68,12 @@ function ThermogenicErythemaHyp() {
                 <iframe
                     width="100%"
                     height="600"
-                    className="border border-2 border-dark"
+                    className="border border-2 border-dark bg-info"
                     src="https://www.youtube.com/embed/oAAlMYWtF_s"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                ></iframe>
+                    allowfullscreen></iframe>
             </div>
 
             <h3 className="text-danger mt-4 mb-2">Experiment 1 (4/11/2023)</h3>
@@ -133,8 +129,7 @@ function ThermogenicErythemaHyp() {
                     title="Experiment 1 Datatable"
                     width="100%"
                     height="450"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1529021233&amp;single=true&amp;widget=true&amp;headers=false"
-                ></iframe>
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1529021233&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
             <h3 className=" text-danger mt-5 mb-2">Experiment 2 (4/18/2023)</h3>
             <h4 className="text-success">Approaching a more robust data collection paradigm</h4>
@@ -179,8 +174,7 @@ function ThermogenicErythemaHyp() {
                     seamless
                     style={{ overflow: "scroll" }}
                     title="Skin Temperature Across Sun Exposure vs Shade"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubchart?oid=993782227&amp;format=image"
-                ></iframe>
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubchart?oid=993782227&amp;format=image"></iframe>
             </div>
             <p>
                 Measurements appeared to support the idea that bodypart is largely unimportant:
@@ -193,8 +187,7 @@ function ThermogenicErythemaHyp() {
                     title="Experiment 2 Datatable"
                     width="100%"
                     height="650"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1771881055&amp;single=true&amp;widget=true&amp;headers=false"
-                ></iframe>
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS572mdivntGBCxBJZU7wJMMaFN0-XmP1MljWDPNEUpB4BX7--pp-QpavXHPQxORKho024lsakv0r1m/pubhtml?gid=1771881055&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
             <p>
                 Next experiment needs to use laser thermometer to measure skin temperature, and
