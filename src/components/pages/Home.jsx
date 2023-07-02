@@ -88,8 +88,7 @@ function Home() {
 
                                 <Link
                                     to="/articles/literature-reviews/ketosis-psychiatry"
-                                    className="card-link"
-                                >
+                                    className="card-link">
                                     Read more...
                                 </Link>
                             </div>
@@ -128,8 +127,7 @@ function Home() {
                                                 border: "2px solid black",
                                                 borderRadius: "15px",
                                             }}
-                                            src={RussGreeting}
-                                        >
+                                            src={RussGreeting}>
                                             Source
                                             <Link to="https://en.wiktionary.org/wiki/File:Ru-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.ogg"></Link>
                                         </audio>
@@ -138,8 +136,7 @@ function Home() {
 
                                 <Link
                                     to="/articles/russian/russian-pronunciation-IPA"
-                                    className="card-link"
-                                >
+                                    className="card-link">
                                     Read more...
                                 </Link>
                             </div>
@@ -156,18 +153,16 @@ function Home() {
                                     An Evolutionary Approach to Sun Exposure
                                 </h5>
                                 <p className="card-text text-success">
-                                    The idea that I <i>need</i> sunscreen, a modern chemical
-                                    invention, to protect my body, which has been adapting to the
-                                    environment (sun included) for over 80 million years, has never
-                                    sat quite right with me. The idea that the sun is "an evil
-                                    deathray" doesn't much either. We have the evidence and the
-                                    theory to believe otherwise, so what is up?
+                                    How do evolutionary theory and solar erythema fit together?
+                                    Should you use a pharmaceutical to protect yourself from solar
+                                    radiation? If so, why would your organism be unprepared for
+                                    coexistance with a stimulus that has been extant for the
+                                    entirety of life on earth?
                                 </p>
 
                                 <Link
                                     to="/articles/my-research/evolutionary-approach-to-sunburn"
-                                    className="card-link"
-                                >
+                                    className="card-link">
                                     Read more...
                                 </Link>
                             </div>
@@ -181,8 +176,7 @@ function Home() {
                                 <h5 className="card-subtitle mb-2 text-danger">
                                     <Link
                                         className="link-warning"
-                                        to="https://www.arewewebyet.org/"
-                                    >
+                                        to="https://www.arewewebyet.org/">
                                         The State of Web Development in Rust{" "}
                                     </Link>
                                     <img
@@ -197,8 +191,7 @@ function Home() {
                                         title="Rust Web Server Frameworks"
                                         width="100%"
                                         height="400"
-                                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRs9nIPQEnduAOOq7s7_QpwAUw1R6oIj_w1L3hsiG-K1GRh4Tq3mVPi03805MiGunghVxPfZWINpeQZ/pubhtml?gid=1567436066&amp;single=true&amp;embedded=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=demo"
-                                    ></iframe>
+                                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRs9nIPQEnduAOOq7s7_QpwAUw1R6oIj_w1L3hsiG-K1GRh4Tq3mVPi03805MiGunghVxPfZWINpeQZ/pubhtml?gid=1567436066&amp;single=true&amp;embedded=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;rm=demo"></iframe>
                                 </div>
                                 <Link to="/sheets" className="card-link">
                                     See the full sheet here
@@ -211,8 +204,7 @@ function Home() {
                                 <Link
                                     target="_blank"
                                     rel="noreferrer"
-                                    to="http://www.RussianVocabularyListMaker.com/rubit"
-                                >
+                                    to="http://www.RussianVocabularyListMaker.com/rubit">
                                     RussianVocabularyListMaker.com
                                 </Link>
                             </h3>
@@ -229,8 +221,8 @@ function Home() {
                                 <p className="card-text text-light">
                                     A tool that lets you generate vocabulary lists from input text.
                                     The site also contains full lists of over 3000 verb pairs, and
-                                    300 verb trees, an alternative model of Russian verbs, that
-                                    makes comprehending, acquiring, and producing Russian verbs far
+                                    300 verb trees—an alternative model of Russian verbs that makes
+                                    comprehending, acquiring, and producing Russian verbs far
                                     easier.
                                 </p>
                             </div>
@@ -282,8 +274,7 @@ function Home() {
                                 </p>
                                 <Link
                                     to="/tools/russian-example-vocab-sentence"
-                                    className="card-link"
-                                >
+                                    className="card-link">
                                     <button className="btn btn-primary py-1">Try it out</button>
                                 </Link>
                             </div>
@@ -315,15 +306,13 @@ function Home() {
                                     top: "-90px",
                                     right: "60px",
                                     transition: "ease-in-out all .3s",
-                                }}
-                            >
+                                }}>
                                 <div className="alert-text">Success! Your email has been sent.</div>
                                 <button
                                     type="button"
                                     className="btn-close"
                                     data-bs-dismiss="alert"
-                                    aria-label="Close"
-                                ></button>
+                                    aria-label="Close"></button>
                             </div>
 
                             <div className="card-body">
@@ -365,8 +354,7 @@ function Home() {
                                         placeholder="Write your message here"
                                         rows="4"
                                         required="required"
-                                        data-error="Please, send me a message here"
-                                    ></textarea>
+                                        data-error="Please, send me a message here"></textarea>
 
                                     <input
                                         type="submit"
